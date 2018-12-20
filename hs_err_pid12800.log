@@ -1,0 +1,93 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000002f246c0, pid=12800, tid=0x00000000000004b8
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_181-b13) (build 1.8.0_181-b13)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.181-b13 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# j  LeetCode.test29_devideTwoIntegers.DivideTwoIntegers.main([Ljava/lang/String;)V+17
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002df3800):  JavaThread "main" [_thread_in_Java, id=1208, stack(0x0000000002bf0000,0x0000000002cf0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000000179e0790
+
+Registers:
+RAX=0x00000000ffffffe5, RBX=0x00000000000000b6, RCX=0x000000001787e700, RDX=0x000000000002c410
+RSP=0x0000000002cef600, RBP=0x0000000002cef650, RSI=0x000000001787e270, RDI=0x0000000020200021
+R8 =0x0000000000000004, R9 =0x0000000002be7720, R10=0x000000006325b720, R11=0x0000000019e6c408
+R12=0x0000000000000000, R13=0x000000001787e679, R14=0x0000000002cef660, R15=0x0000000002df3800
+RIP=0x0000000002f246c0, EFLAGS=0x0000000000010202
+
+Top of Stack: (sp=0x0000000002cef600)
+0x0000000002cef600:   00000000ffffffe5 00000000d5fdcdd0
+0x0000000002cef610:   0000000002cef610 000000001787e679
+0x0000000002cef620:   0000000002cef660 000000001787e700
+0x0000000002cef630:   0000000000000000 000000001787e690
+0x0000000002cef640:   0000000000000000 0000000002cef660
+0x0000000002cef650:   0000000002cef740 0000000002ef08da
+0x0000000002cef660:   00000000d621dd98 cafebabecafebabe
+0x0000000002cef670:   cafebabecafebabe 0000000000000000
+0x0000000002cef680:   0000000000000000 0000000000000000
+0x0000000002cef690:   0000000000000000 0000000000000000
+0x0000000002cef6a0:   0000000000000000 0000000000000000
+0x0000000002cef6b0:   0000000000000000 0000000000000000
+0x0000000002cef6c0:   0000000000000000 0000000000000000
+0x0000000002cef6d0:   0000000000000000 cafebabecafebabe
+0x0000000002cef6e0:   cafebabecafebabe cafebabecafebabe
+0x0000000002cef6f0:   cafebabecafebabe 0000000000000000 
+
+Instructions: (pc=0x0000000002f246c0)
+0x0000000002f246a0:   00 00 48 83 ec 10 48 89 04 24 e9 01 00 00 00 50
+0x0000000002f246b0:   4c 89 6d c8 41 0f b7 55 01 48 8b 4d d8 c1 e2 02
+0x0000000002f246c0:   8b 5c d1 10 c1 eb 18 81 e3 ff 00 00 00 81 fb b6
+0x0000000002f246d0:   00 00 00 0f 84 51 01 00 00 bb b6 00 00 00 e8 05 
+
+
+Register to memory mapping:
+
+RAX=0x00000000ffffffe5 is an unallocated location in the heap
+RBX=0x00000000000000b6 is an unknown value
+RCX=0x000000001787e700 is pointing into metadata
+RDX=0x000000000002c410 is an unknown value
+RSP=0x0000000002cef600 is pointing into the stack for thread: 0x0000000002df3800
+RBP=0x0000000002cef650 is pointing into the stack for thread: 0x0000000002df3800
+RSI=0x000000001787e270 is pointing into metadata
+RDI=0x0000000020200021 is an unknown value
+R8 =0x0000000000000004 is an unknown value
+R9 =0x0000000002be7720 is an unknown value
+R10=0x000000006325b720 is an unknown value
+R11=0x0000000019e6c408 is an unknown value
+R12=0x0000000000000000 is an unknown value
+R13=0x000000001787e679 is pointing into metadata
+R14=0x0000000002cef660 is pointing into the stack for thread: 0x0000000002df3800
+R15=0x0000000002df3800 is a thread
+
+
+Stack: [0x0000000002bf0000,0x0000000002cf0000],  sp=0x0000000002cef600,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x0000000002f246c0
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000019f0f800 JavaThread "Service Thread" daemon [_thread_blocked, id=2500, stack(0x000000001ab50000,0x000000001ac50000)]
+  0x0000000019e89000 JavaThread "C1 CompilerThread3" daemon [_thread_blocked, id=2496, stack(0x000000001aa50000,0x000000001ab50000)]
+  0x0000000019e88000 JavaThread "C2 CompilerThread2" daemon [_thread_blocked, id=11864, stack(0x000000001a950000,0x000000001aa50000)]
+  0x0000000019e85800 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=8404, stack(0x000000001a850000,0x000000001a950000)]
+  0x0000000019e80800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=6524, stack(0x000000001a750000,0x000000001a850000)]
+  0x0000000019df8800 JavaThread "JDWP Command Reader" daemon [_thread_in_vm, id=9248, stack(0x000000001a650000,0x000000001a750000)]
+  0x0000000019df7800 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=12876, stack(0x000000001a550000,0x000000001a650000)]
+  0x0000000019ded800 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_blocked, id=3216, stack(0x000000001a450000,0x000000001a550000)]
+  0x0000000019de8800 JavaThread "Attach Listener" daemon [_thread_blocked, id=3260, stack(0x000000001a350000,0x000000001a450000)]
+  0x0000000019d95800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3788, stack(0x000000001a250000,0x000000001a350000)]
+  0x0000000019d70800 JavaThread "Finalizer"
