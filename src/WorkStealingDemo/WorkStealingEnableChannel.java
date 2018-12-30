@@ -1,4 +1,8 @@
 package WorkStealingDemo;
 
-public interface WorkStealingEnableChannel {
+import java.nio.channels.Channel;
+import java.util.concurrent.BlockingDeque;
+
+public interface WorkStealingEnableChannel<P> extends Channel {
+    P take(BlockingDeque<P> preferredQueue) throws InterruptedException;
 }

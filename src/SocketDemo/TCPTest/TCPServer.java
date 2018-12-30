@@ -1,4 +1,4 @@
-package TCPTest;
+package SocketDemo.TCPTest;
 
 import java.io.IOException;
 import java.io.InputStream;

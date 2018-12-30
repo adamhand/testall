@@ -1,10 +1,8 @@
 package Thread.ExecutorDemo.Demo1;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 import java.util.concurrent.*;
 
-class MyCallable implements Callable{
+class MyCallable implements Callable {
     @Override
     public Object call() {
         Long startTime = System.currentTimeMillis();
@@ -22,7 +20,6 @@ class MyCallable implements Callable{
     }
 }
 
-
 public class Demo1 {
     public static void main(String[] args) {
         ExecutorService es = Executors.newCachedThreadPool();
@@ -34,7 +31,7 @@ public class Demo1 {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             es.shutdown();
         }
     }

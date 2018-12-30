@@ -1,4 +1,4 @@
-package UDPThread;
+package SocketDemo.UDPThread;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

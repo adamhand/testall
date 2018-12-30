@@ -8,5 +8,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="cglib-nodep-2.1_3" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.8.1" level="project" />
+    <orderEntry type="library" name="hessian-4.0.51" level="project" />
+    <orderEntry type="library" name="json-lib-2.4-jdk15" level="project" />
+    <orderEntry type="library" name="fastjson-1.2.7" level="project" />
+    <orderEntry type="library" name="protostuff-core-1.0.2" level="project" />
+    <orderEntry type="library" name="protostuff-runtime-1.0.8" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="lib (2)" level="project" />
+    <orderEntry type="library" name="kryo-3.0.3" level="project" />
+    <orderEntry type="library" name="msm-kryo-serializer-1.5.1" level="project" />
+    <orderEntry type="library" name="fst-2.40" level="project" />
   </component>
 </module>

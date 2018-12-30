@@ -1,4 +1,4 @@
-package UDPTest;
+package SocketDemo.UDPTest;
 
 
 import java.io.IOException;

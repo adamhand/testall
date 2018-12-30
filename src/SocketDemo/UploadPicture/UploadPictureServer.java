@@ -1,4 +1,4 @@
-package UploadPicture;
+package SocketDemo.UploadPicture;
 
 import java.io.IOException;
 import java.net.ServerSocket;
