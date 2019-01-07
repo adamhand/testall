@@ -38,8 +38,8 @@ class Resource
                 e.printStackTrace();
             }
         }
-        //this.name = name + count;
-        //count--;
+//        this.name = name + count;
+//        count--;
         System.out.println(Thread.currentThread().getName()+" 消费者............... " +this.name);
         flag = false;
         notifyAll();
