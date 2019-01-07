@@ -2,50 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Generic/ObjectAndT/Stove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/WideTurkey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testAll/Sort/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testAll/Sort/TestSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testAll/Test/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testAll/Test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testAll/Test/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testAll/Test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testAll/Test/TestMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/RBTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/RBTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo1/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo4/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo4/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo4/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/Demo5/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/Demo5/Encryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/FstDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/FstDemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/HessianDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/HessianDemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/HessianDemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/HessianDemo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/JSONDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/JSONDemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/KryoDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/KryoDemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/KryoDemo/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/KryoDemo/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/KryoDemo/kryoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/KryoDemo/kryoSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/ProtostuffDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeDemo/ProtostuffDemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UDPTest/UDPReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UDPTest/UDPReceive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UDPTest/UDPSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UDPTest/UDPSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UDPThread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UDPThread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UDPThread/UDPReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UDPThread/UDPReceive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UDPThread/UDPSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UDPThread/UDPSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/TestSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/ExecutorDemo/Demo1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ExecutorDemo/Demo1/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkStealingDemo/WorkStealingChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkStealingDemo/WorkStealingChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkStealingDemo/WorkStealingEnableChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkStealingDemo/WorkStealingEnableChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testAll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testAll.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,9 +34,9 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -84,34 +46,34 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="10" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="208" />
+          <entry key="java" value="213" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="208" />
+          <entry key="JAVA" value="213" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="28988" />
+          <entry key="java" value="29174" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28988" />
+          <entry key="JAVA" value="29174" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -119,33 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/ExecutorDemo/Demo1/Demo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,11 +90,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Generic/ObjectAndT/Stove.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="260">
               <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Turkey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/WideTurkey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/TurkeyAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -216,11 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/src/Thread/ThreadLocalTest/SeqCount.java" />
-        <option value="$PROJECT_DIR$/src/InnerClassTest/MethodInnerClass/MethodInnerClass.java" />
-        <option value="$PROJECT_DIR$/src/InnerClassTest/test1/OuterClass.java" />
-        <option value="$PROJECT_DIR$/src/CloneTest/test_1/teacher.java" />
         <option value="$PROJECT_DIR$/src/CloneTest/test_1/Main.java" />
         <option value="$PROJECT_DIR$/src/CloneTest/test_1/Student.java" />
         <option value="$PROJECT_DIR$/src/CloneTest/SerializableClone/Teacher.java" />
@@ -267,6 +250,11 @@
         <option value="$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java" />
         <option value="$PROJECT_DIR$/src/Generic/ObjectAndT/Stove.java" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/ProtostuffDemo/Main.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Duck.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Turkey.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/WideTurkey.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/TurkeyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Main.java" />
       </list>
     </option>
   </component>
@@ -324,12 +312,20 @@
             <path>
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
@@ -358,14 +354,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546078896821" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546661614266" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -394,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="ExecutorTest1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
       <module name="testAll" />
@@ -402,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializeDemo.FstDemo.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Adapter.Main" />
       <module name="testAll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SerializeDemo.FstDemo.*" />
+          <option name="PATTERN" value="DesignPatterns.Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -469,19 +465,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.TestSort" />
       <item itemvalue="Application.Stove" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Stove" />
         <item itemvalue="Application.TestSort" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -529,17 +525,18 @@
       <workItem from="1545963674236" duration="1473000" />
       <workItem from="1546067055357" duration="1505000" />
       <workItem from="1546076924472" duration="1140000" />
+      <workItem from="1546656007486" duration="1461000" />
+      <workItem from="1546741542646" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149763000" />
+    <option name="totallyTimeSpent" value="151821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29155496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29959786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -703,29 +700,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/Demo5/Encryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/Demo4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/HessianDemo/SerializeTools.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class" />
-    <entry file="jar://$PROJECT_DIR$/lib/fastjson-1.2.7.jar!/com/alibaba/fastjson/util/DeserializeBeanInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/protostuff-core-1.0.2.jar!/com/dyuproject/protostuff/ProtostuffIOUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
@@ -973,6 +947,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtostuffDemo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/ExecutorDemo/Demo1/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1001,6 +982,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Generic/ObjectAndT/Stove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Turkey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/WideTurkey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/TurkeyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6880">
@@ -1022,17 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtostuffDemo/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generic/ObjectAndT/Stove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
