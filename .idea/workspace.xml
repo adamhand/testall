@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/SynchronizedTest2/SynchronizedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testAll/DataStructureAndAlgorithm/BiTree/BiTree$BiTreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testAll/DataStructureAndAlgorithm/BiTree/BiTree$BiTreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testAll/DataStructureAndAlgorithm/BiTree/BiTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testAll/DataStructureAndAlgorithm/BiTree/BiTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testAll/DataStructureAndAlgorithm/BiTree/BiTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testAll/DataStructureAndAlgorithm/BiTree/BiTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,46 +34,46 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="44" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="10" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="232" />
-          <entry key="txt" value="2" />
+          <entry key="java" value="237" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="232" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="237" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="29966" />
+          <entry key="java" value="30139" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29966" />
+          <entry key="JAVA" value="30139" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -81,41 +82,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/SynchronizedClass.java">
+        <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="296">
+              <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread2.java">
+        <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="140">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SerializeDemo/Demo1/User.java" />
-        <option value="$PROJECT_DIR$/src/SerializeDemo/Demo1/Main.java" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/Demo2/Main.java" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/Demo2/User.java" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/Demo3/Test.java" />
@@ -198,6 +178,8 @@
         <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest2/SynchronizedClass.java" />
         <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread1.java" />
         <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread2.java" />
+        <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java" />
+        <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTreeTest.java" />
       </list>
     </option>
   </component>
@@ -263,14 +245,7 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="SynchronizedTest2" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547179138503" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547264648096" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -314,7 +289,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.BiTreeTest">
+    <configuration name="BiTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithm.BiTree.BiTreeTest" />
+      <module name="testAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructureAndAlgorithm.BiTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExecutorTest1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
       <module name="testAll" />
@@ -341,19 +329,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Thread.SynchronizedTest2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializeDemo.ProtostuffDemo.Main" />
-      <module name="testAll" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SerializeDemo.ProtostuffDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +364,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.ProducerAndCustomer" />
       <item itemvalue="Application.ProducerAndCustomer (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.BiTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiTreeTest" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.ProducerAndCustomer (1)" />
         <item itemvalue="Application.ProducerAndCustomer" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -457,16 +432,20 @@
       <workItem from="1547038466924" duration="2233000" />
       <workItem from="1547123266106" duration="288000" />
       <workItem from="1547171988881" duration="6418000" />
+      <workItem from="1547196130500" duration="510000" />
+      <workItem from="1547259254165" duration="895000" />
+      <workItem from="1547264318922" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163191000" />
+    <option name="totallyTimeSpent" value="164841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,7 +454,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.36737588" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.25531915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -630,48 +609,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/RBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10380">
-          <caret line="519" column="1" selection-start-line="519" selection-start-column="1" selection-end-line="519" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/RBTree/RBTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketDemo/UDPTest/UDPSend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SocketDemo/UDPTest/UDPReceive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -912,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -951,17 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -974,8 +893,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="320">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree2/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree2/BiTreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1865">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BST/BSTUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BST/BSTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BST/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

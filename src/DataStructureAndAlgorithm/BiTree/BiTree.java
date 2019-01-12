@@ -1,9 +1,6 @@
 package DataStructureAndAlgorithm.BiTree;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class BiTree {
     protected BiTreeNode root;
@@ -106,12 +103,28 @@ public class BiTree {
         }
     }
     //先序遍历递归
-    public void preOrderTraverse(BiTreeNode x){
+//    public void preOrderTraverse(BiTreeNode x){
+//        if(x != null){
+//            System.out.print(x.value + " ");
+//            preOrderTraverse(x.left);
+//            preOrderTraverse(x.right);
+//        }
+//    }
+
+    /**
+     * 不直接输出，而是保存到一个链表里
+     * @param x
+     * @param list
+     * @return
+     */
+    public List preOrderTraverse(BiTreeNode x,List list){
         if(x != null){
-            System.out.print(x.value + " ");
-            preOrderTraverse(x.left);
-            preOrderTraverse(x.right);
+            list.add(x.value);
+            list = preOrderTraverse(x.left, list);
+            list = preOrderTraverse(x.right, list);
         }
+
+        return list;
     }
 
     //后序遍历非递归
