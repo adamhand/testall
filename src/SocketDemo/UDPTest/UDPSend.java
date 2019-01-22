@@ -56,7 +56,7 @@ import java.net.InetAddress;
 
 public class UDPSend {
 
-    public static void main(String[] args) throws IOException {
+    public static void Main(String[] args) throws IOException {
 
         System.out.println("发送端启动......");
 

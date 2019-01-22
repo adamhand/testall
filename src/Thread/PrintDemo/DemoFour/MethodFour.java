@@ -12,7 +12,7 @@ public class MethodFour {
 
     public Runnable newThreadOne()
     {
-        String[] inputArr = HelperTool.buildNoArr(52);
+        final String[] inputArr = HelperTool.buildNoArr(52);
         return new Runnable() {
             @Override
             public void run() {
@@ -31,7 +31,7 @@ public class MethodFour {
 
     public Runnable newThreadTwo()
     {
-        String[] inputArr = HelperTool.buildCharArr(26);
+        final String[] inputArr = HelperTool.buildCharArr(26);
         return new Runnable() {
             @Override
             public void run() {

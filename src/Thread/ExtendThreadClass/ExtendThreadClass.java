@@ -15,6 +15,6 @@ public class ExtendThreadClass {
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
         myThread.start();  //创建的线程：Thread-0 11
-        myThread.run();    //创建的线程：main 1
+        myThread.run();    //创建的线程：Main 1
     }
 }

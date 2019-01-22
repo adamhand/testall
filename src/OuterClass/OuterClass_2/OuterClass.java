@@ -13,7 +13,7 @@ package OuterClass.OuterClass_2;
  */
 public class OuterClass {
     public void method(){
-        int i = 1;    //不加final好像也可以
+        final int i = 1;    //不加final好像也可以
 
         class InnerClass{   //不允许有public等修饰符
             public void show(){

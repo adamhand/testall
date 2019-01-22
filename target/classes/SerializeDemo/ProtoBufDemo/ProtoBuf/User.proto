@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "SerializeDemo.ProtoBufDemo.ProtoBuf";
+option java_outer_classname = "UserProto";
+
+message User{
+    string name = 1;
+    string gender = 2;
+    int32 age = 3;
+    Address addr = 4;
+}
+
+message Address{
+    string country = 1;
+    string city = 2;
+}

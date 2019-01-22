@@ -10,7 +10,7 @@ public class PascalTriangle {
         if(numRows == 0)
             return triggle;
 
-        triggle.add(new ArrayList<>());
+        triggle.add(new ArrayList<Integer>());
         triggle.get(0).add(1);
 
         for(int rowNum = 1; rowNum < numRows; rowNum++){

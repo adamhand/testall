@@ -15,7 +15,7 @@ public class Stove {
 //        return food;
 //    }
 //
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //        Meat meat = new Meat();
 //        meat = (Meat) Stove.heat(meat);
 //
