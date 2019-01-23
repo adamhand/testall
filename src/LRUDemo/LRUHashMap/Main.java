@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         LRUCache<String, Integer> cache = new LRUCache<>(3);
 
+//        System.out.println(cache.hashCode() & 0x7fffffff);
+
         cache.put("0", 0);
         cache.put("1", 1);
         cache.put("2", 2);
