@@ -38,6 +38,7 @@ public class HashTableM<K, V> {
     }
 
     public void put(K key, V value){
+        //如果Key为null,使用handleNullValue进行处理，这个方法将key为null的value插入nodes[0]中
         if(key == null){
             handleNullValue(value);
             return;
