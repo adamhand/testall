@@ -40,6 +40,7 @@ public class HashTableM<K, V> {
     public void put(K key, V value){
         if(key == null){
             handleNullValue(value);
+            return;
         }
 
         int h = hash(key);
@@ -81,6 +82,13 @@ public class HashTableM<K, V> {
     private void addNode(int i, K key, V value){
         Node<K, V> node = nodes[i];
         Node<K, V> newNode = new Node(key, value);
+
+        //如果链表为空，就新建链表
+        if(node == null){
+            node = new Node<>();
+            nodes[i] = node;
+            node.next = null;
+        }
 
         Node nodeNext = node.next;
         node.next = newNode;

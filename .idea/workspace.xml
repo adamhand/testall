@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -38,9 +33,9 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="65" />
+          <entry key="project.closed" value="66" />
           <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.1" value="11" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
@@ -53,13 +48,13 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="66" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="287" />
+          <entry key="java" value="288" />
           <entry key="proto" value="2" />
           <entry key="txt" value="5" />
           <entry key="xml" value="5" />
@@ -68,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="287" />
+          <entry key="JAVA" value="288" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="5" />
         </counts>
@@ -76,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="38981" />
+          <entry key="java" value="39153" />
           <entry key="proto" value="237" />
           <entry key="txt" value="28" />
           <entry key="xml" value="32" />
@@ -84,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="38981" />
+          <entry key="JAVA" value="39153" />
           <entry key="PLAIN_TEXT" value="282" />
           <entry key="XML" value="32" />
         </counts>
@@ -123,21 +118,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            <state relative-caret-position="227">
+              <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
               <folding>
                 <element signature="e#795#796#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="260">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -172,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test/Test1.java" />
         <option value="$PROJECT_DIR$/src/Thread/ExecutorDemo/Demo1/Demo1.java" />
         <option value="$PROJECT_DIR$/src/Sort/TestSort.java" />
         <option value="$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java" />
@@ -221,8 +226,9 @@
         <option value="$PROJECT_DIR$/src/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" />
         <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/readme.txt" />
-        <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java" />
+        <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" />
       </list>
     </option>
   </component>
@@ -270,8 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,12 +324,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548209670112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548255537519" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -356,10 +362,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="ExecutorTest1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
       <module name="testAll" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithm.HashTableManual.Main" />
+      <module name="testAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructureAndAlgorithm.HashTableManual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,19 +422,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoBufServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializeDemo.ProtoBufDemo.ServerTest.ProtoBufServer" />
-      <module name="testAll" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SerializeDemo.ProtoBufDemo.ServerTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReentrantReadWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.ReetrantReadWriteLockDemo.Demo1.ReentrantReadWriteLockTest" />
       <module name="testAll" />
@@ -431,19 +437,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.ProtoBufServer" />
       <item itemvalue="Application.ProtoBufClient (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.ReentrantReadWriteLockTest" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReentrantReadWriteLockTest" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.ProtoBufClient (1)" />
-        <item itemvalue="Application.ProtoBufServer" />
       </list>
     </recent_temporary>
   </component>
@@ -522,18 +528,19 @@
       <workItem from="1548204853745" duration="56000" />
       <workItem from="1548204932394" duration="1289000" />
       <workItem from="1548208445628" duration="1818000" />
-      <workItem from="1548238732921" duration="605000" />
+      <workItem from="1548238732921" duration="662000" />
+      <workItem from="1548254171683" duration="1292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215532000" />
+    <option name="totallyTimeSpent" value="216881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27144772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,7 +549,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.21276596" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.29503545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,13 +704,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest/SynchronizedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1002,21 +1002,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="227">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
           <folding>
             <element signature="e#795#796#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
