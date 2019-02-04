@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test138_CopyListwithRandomPointer/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test817_LinkedListComponents/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test82_RemoveDuplicationsInList/RemoveDuplictions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test92_ReversListNtoM/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -31,10 +35,10 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="66" />
+          <entry key="project.closed" value="69" />
           <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="11" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
@@ -46,13 +50,13 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="67" />
+          <entry key="project.opened" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="288" />
+          <entry key="java" value="297" />
           <entry key="proto" value="2" />
           <entry key="txt" value="5" />
           <entry key="xml" value="5" />
@@ -61,7 +65,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="288" />
+          <entry key="JAVA" value="297" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="5" />
         </counts>
@@ -69,7 +73,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="39247" />
+          <entry key="java" value="40547" />
           <entry key="proto" value="237" />
           <entry key="txt" value="28" />
           <entry key="xml" value="32" />
@@ -77,7 +81,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="39247" />
+          <entry key="JAVA" value="40547" />
           <entry key="PLAIN_TEXT" value="282" />
           <entry key="XML" value="32" />
         </counts>
@@ -107,22 +111,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1000">
-              <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
+            <state relative-caret-position="2020">
+              <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
               <folding>
                 <element signature="e#795#796#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#2100#2101#0" expanded="true" />
-                <element signature="e#2133#2134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,7 +134,40 @@
         <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test92_ReversListNtoM/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test817_LinkedListComponents/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test138_CopyListwithRandomPointer/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="440">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -168,6 +203,7 @@
       <find>花费</find>
       <find>iterator</find>
       <find>put</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,10 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Thread/ExecutorDemo/Demo1/Demo1.java" />
-        <option value="$PROJECT_DIR$/src/Sort/TestSort.java" />
-        <option value="$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java" />
-        <option value="$PROJECT_DIR$/src/Generic/ObjectAndT/Stove.java" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/ProtostuffDemo/Main.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Duck.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Turkey.java" />
@@ -227,6 +259,10 @@
         <option value="$PROJECT_DIR$/src/Sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java" />
         <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test82_RemoveDuplicationsInList/RemoveDuplictions.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test92_ReversListNtoM/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test817_LinkedListComponents/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test138_CopyListwithRandomPointer/Solution.java" />
       </list>
     </option>
   </component>
@@ -290,20 +326,7 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTableManual" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
@@ -322,14 +345,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548255766925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549023368828" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -527,18 +550,19 @@
       <workItem from="1548204932394" duration="1289000" />
       <workItem from="1548208445628" duration="1818000" />
       <workItem from="1548238732921" duration="662000" />
-      <workItem from="1548254171683" duration="1570000" />
+      <workItem from="1548254171683" duration="1746000" />
+      <workItem from="1548294427403" duration="1254000" />
+      <workItem from="1549017464254" duration="3814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217159000" />
+    <option name="totallyTimeSpent" value="222403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16286863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,7 +571,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.25106382" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.25106382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -702,58 +726,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest/SynchronizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/SynchronizedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/SynchronizedTest2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree2/readme.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree2/BiTreeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1865">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BST/BSTUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BST/BSTNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -979,6 +951,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/KMP/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/KMP/KMP2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/KMP/KMP3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -995,34 +995,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2020">
+          <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+          <folding>
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="440">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test82_RemoveDuplicationsInList/RemoveDuplictions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
+        <state relative-caret-position="120">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="3" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test92_ReversListNtoM/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test817_LinkedListComponents/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test138_CopyListwithRandomPointer/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
