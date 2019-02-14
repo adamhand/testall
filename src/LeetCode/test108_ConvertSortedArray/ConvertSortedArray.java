@@ -25,4 +25,9 @@ public class ConvertSortedArray {
 
         return node;
     }
+
+    public static void main(String[] args) {
+        int[] nums = {-10, -3, 0, 5, 9};
+        new ConvertSortedArray().sortedArrayToBST(nums);
+    }
 }
