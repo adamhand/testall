@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/HashTableM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/HashTableM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -35,8 +32,8 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="71" />
-          <entry key="project.open.time.0" value="10" />
+          <entry key="project.closed" value="72" />
+          <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="3" />
@@ -51,13 +48,13 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="72" />
+          <entry key="project.opened" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="299" />
+          <entry key="java" value="300" />
           <entry key="proto" value="2" />
           <entry key="txt" value="5" />
           <entry key="xml" value="5" />
@@ -66,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="299" />
+          <entry key="JAVA" value="300" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="5" />
         </counts>
@@ -74,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="41306" />
+          <entry key="java" value="41501" />
           <entry key="proto" value="237" />
           <entry key="txt" value="28" />
           <entry key="xml" value="32" />
@@ -82,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41306" />
+          <entry key="JAVA" value="41501" />
           <entry key="PLAIN_TEXT" value="282" />
           <entry key="XML" value="32" />
         </counts>
@@ -109,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="118">
+              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -121,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="200">
               <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
@@ -158,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Turkey.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/WideTurkey.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/TurkeyAdapter.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Main.java" />
@@ -209,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/test138_CopyListwithRandomPointer/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java" />
       </list>
     </option>
   </component>
@@ -256,7 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,21 +285,6 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="test108_ConvertSortedArray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="test108_ConvertSortedArray" type="462c0819:PsiDirectoryNode" />
-              <item name="ConvertSortedArray.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,13 +298,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550110827615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550135118809" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -516,18 +507,19 @@
       <workItem from="1549017464254" duration="3814000" />
       <workItem from="1549248413292" duration="102000" />
       <workItem from="1550065302326" duration="1484000" />
-      <workItem from="1550104566961" duration="2775000" />
+      <workItem from="1550104566961" duration="2908000" />
+      <workItem from="1550134836570" duration="272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226764000" />
+    <option name="totallyTimeSpent" value="227169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,7 +528,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.25106382" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.25106382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48368794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,7 +689,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Thread/LockAndSynchronizedTest/LockAndSynchronized.java" />
     <entry file="file://$PROJECT_DIR$/testall/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/Thread/ProducerAndCustomer_2/ProducerAndCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,15 +1009,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="200">
           <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="118">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
