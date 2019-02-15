@@ -38,7 +38,7 @@ public class LRUCache<K, V> implements Iterable<K> {
 
         //构建一个空的双链表
         head.next = tail;
-        tail.next = head;
+        tail.pre = head;
     }
 
     public V get(K key){
@@ -54,6 +54,8 @@ public class LRUCache<K, V> implements Iterable<K> {
     }
 
     public void put(K key, V value){
+        //如果当当前map中包含key的节点，直接在双链表中将
+        //该节点断开。否则后面插入之后，在双链表中会出现key值重复的node。
         if(map.containsKey(key)){
             Node node = map.get(key);
             unlink(node);
@@ -82,7 +84,7 @@ public class LRUCache<K, V> implements Iterable<K> {
     }
 
     //将当前节点加入链表头
-    private Node appendHead(Node node){
+    private void appendHead(Node node){
 //        unlink(node);
 
         Node headNext = head.next;
@@ -91,8 +93,6 @@ public class LRUCache<K, V> implements Iterable<K> {
 
         headNext.pre = node;
         node.pre = head;
-
-        return node;
     }
 
     //删除链表尾部的节点

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/test287_FindtheDuplicateNumber/Sulotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test146_LRUCache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test146_LRUCache/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test287_FindtheDuplicateNumber/Sulotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test287_FindtheDuplicateNumber/Sulotion.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -32,7 +37,7 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="73" />
+          <entry key="project.closed" value="74" />
           <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="14" />
           <entry key="project.open.time.10" value="6" />
@@ -46,15 +51,15 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="11" />
+          <entry key="project.open.time.8" value="12" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="74" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="301" />
+          <entry key="java" value="305" />
           <entry key="proto" value="2" />
           <entry key="txt" value="5" />
           <entry key="xml" value="5" />
@@ -63,7 +68,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="301" />
+          <entry key="JAVA" value="305" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="5" />
         </counts>
@@ -71,7 +76,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="41755" />
+          <entry key="java" value="42910" />
           <entry key="proto" value="237" />
           <entry key="txt" value="28" />
           <entry key="xml" value="32" />
@@ -79,7 +84,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41755" />
+          <entry key="JAVA" value="42910" />
           <entry key="PLAIN_TEXT" value="282" />
           <entry key="XML" value="32" />
         </counts>
@@ -89,55 +94,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5740">
-              <caret line="321" column="13" selection-start-line="321" selection-start-column="10" selection-end-line="321" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="489">
+              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/test287_FindtheDuplicateNumber/Sulotion.java">
+        <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="100">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test146_LRUCache/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="118">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test146_LRUCache/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="15" selection-start-line="15" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -165,6 +152,7 @@
       <find>iterator</find>
       <find>put</find>
       <find>add</find>
+      <find>appendhe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/TurkeyAdapter.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Adapter/Main.java" />
         <option value="$PROJECT_DIR$/src/Thread/ProducerAndCustomer_1/ProducerAndCustomer.java" />
         <option value="$PROJECT_DIR$/src/Thread/ProducerAndCustomer_2/ProducerAndCustomer.java" />
         <option value="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureClient.java" />
@@ -199,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/SemaphoreDemo/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal.java" />
-        <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LRUDemo/LRULinkedHashMap/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LRUDemo/LRULinkedHashMap/Main.java" />
         <option value="$USER_HOME$/Downloads/protoc-3.1.0-win32/bin/User.proto" />
@@ -211,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ProtoBuf/User.proto" />
         <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/MyRunnable.java" />
         <option value="$PROJECT_DIR$/src/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.java" />
-        <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" />
         <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/readme.txt" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/Main.java" />
@@ -224,6 +208,10 @@
         <option value="$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test287_FindtheDuplicateNumber/Sulotion.java" />
+        <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test146_LRUCache/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test146_LRUCache/Main.java" />
+        <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java" />
       </list>
     </option>
   </component>
@@ -293,6 +281,26 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="test146_LRUCache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LRUDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LRUDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="LRUHashMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,14 +314,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550216471523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550227479414" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -344,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sulotion">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="ConvertSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.test108_ConvertSortedArray.ConvertSortedArray" />
       <module name="testAll" />
@@ -365,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithm.HashTableManual.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.test146_LRUCache.Main" />
       <module name="testAll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructureAndAlgorithm.HashTableManual.*" />
+          <option name="PATTERN" value="LeetCode.test146_LRUCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,18 +428,18 @@
     <list>
       <item itemvalue="Application.ExecutorTest1" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.ConvertSortedArray" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Sulotion" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sulotion" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ConvertSortedArray" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -518,18 +526,19 @@
       <workItem from="1550065302326" duration="1484000" />
       <workItem from="1550104566961" duration="2908000" />
       <workItem from="1550134836570" duration="1662000" />
-      <workItem from="1550213909362" duration="2995000" />
+      <workItem from="1550213909362" duration="3591000" />
+      <workItem from="1550224781920" duration="2517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231554000" />
+    <option name="totallyTimeSpent" value="234667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17292225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,7 +547,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.25106382" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.42553192" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.293617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,20 +708,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Thread/ProducerAndCustomer_2/ProducerAndCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/BiTree/BiTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -947,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/HashTableM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2020">
@@ -1003,24 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
           <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1031,10 +1005,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test287_FindtheDuplicateNumber/Sulotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="276">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test146_LRUCache/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test146_LRUCache/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="15" selection-start-line="15" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>

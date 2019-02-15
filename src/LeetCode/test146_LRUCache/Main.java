@@ -1,20 +1,17 @@
-package LRUDemo.LRUHashMap;
+package LeetCode.test146_LRUCache;
 
 public class Main {
     public static void main(String[] args) {
-//        LRUCache<String, Integer> cache = new LRUCache<>(3);
+//        LRUCache cache = new LRUCache(3);
 //
-////        System.out.println(cache.hashCode() & 0x7fffffff);
+//        cache.put(0, 0);
+//        cache.put(1, 1);
+//        cache.put(2, 2);
+//        cache.put(3, 3);
 //
-//        cache.put("0", 0);
-//        cache.put("1", 1);
-//        cache.put("2", 2);
-//        cache.put("3", 3);
+//        System.out.println(cache.get(1)+" "+cache.get(2)+" "+cache.get(3));
 //
-//        Iterator<String> integerIterator = cache.iterator();
-//        while (integerIterator.hasNext()){
-//            System.out.println(cache.get(integerIterator.next()) + " ");
-//        }
+//        System.out.println(cache.get(0));  //出错，key=0的节点已经被移除。
 
         LRUCache cache = new LRUCache( 2 /* capacity */ );
 
