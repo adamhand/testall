@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/test172_FactorialTrailingZeroes/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/test202_HappyNumber/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,14 +47,14 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="13" />
-          <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="78" />
+          <entry key="project.open.time.9" value="14" />
+          <entry key="project.opened" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="307" />
+          <entry key="java" value="308" />
           <entry key="proto" value="2" />
           <entry key="txt" value="5" />
           <entry key="xml" value="5" />
@@ -64,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="307" />
+          <entry key="JAVA" value="308" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="5" />
         </counts>
@@ -72,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="43663" />
+          <entry key="java" value="44249" />
           <entry key="proto" value="237" />
           <entry key="txt" value="28" />
           <entry key="xml" value="32" />
@@ -80,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="43663" />
+          <entry key="JAVA" value="44249" />
           <entry key="PLAIN_TEXT" value="282" />
           <entry key="XML" value="32" />
         </counts>
@@ -119,17 +118,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/test172_FactorialTrailingZeroes/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="200">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/test202_HappyNumber/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SocketDemo/UploadPicture/UploadPictureClient.java" />
         <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Main.java" />
         <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest2/SynchronizedClass.java" />
         <option value="$PROJECT_DIR$/src/Thread/SynchronizedTest2/Thread1.java" />
@@ -226,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/test146_LRUCache/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test172_FactorialTrailingZeroes/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test202_HappyNumber/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/Solution.java" />
       </list>
     </option>
   </component>
@@ -241,7 +252,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="75" />
     <option name="y" value="195" />
     <option name="width" value="1940" />
@@ -273,6 +284,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,14 +334,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550467441828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550674870844" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -538,16 +549,18 @@
       <workItem from="1550289162148" duration="3971000" />
       <workItem from="1550364228166" duration="51000" />
       <workItem from="1550466129872" duration="1422000" />
+      <workItem from="1550667049536" duration="2085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240362000" />
+    <option name="totallyTimeSpent" value="242447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18096514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -717,13 +730,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OuterClass/OuterClass_2/OuterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JVM/JavaMethodAreaOOM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1035,6 +1041,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test172_FactorialTrailingZeroes/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test146_LRUCache/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1042,17 +1055,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test172_FactorialTrailingZeroes/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test202_HappyNumber/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="176">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test202_HappyNumber/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="260">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
