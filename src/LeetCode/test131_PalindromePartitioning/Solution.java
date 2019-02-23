@@ -3,6 +3,7 @@ package LeetCode.test131_PalindromePartitioning;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://segmentfault.com/a/1190000005669590
 public class Solution {
     public List<List<String>> partition(String s) {
         List<List<String>> result = new ArrayList<>();
