@@ -14,8 +14,10 @@ public class Solution {
     }
 
     public void backtracing(List<List<String>> result, List<String> list, String s){
-        if (s.length() == 0)
+        if (s.length() == 0) {
             result.add(new ArrayList<String>(list));
+            return;
+        }
 
         for (int i = 1; i <= s.length(); i++){
             if(!isPalindrome(s.substring(0, i))){
@@ -23,7 +25,7 @@ public class Solution {
             }
             list.add(s.substring(0, i));
             backtracing(result, list, s.substring(i));
-            list.remove(list.size() - 1);
+            list.remove(list.size() - 1);  //回溯
         }
     }
 
@@ -37,5 +39,12 @@ public class Solution {
             r--;
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        String s = "aab";
+
+        List<List<String>> result = new ArrayList<>();
+        result = new Solution().partition(s);
     }
 }
