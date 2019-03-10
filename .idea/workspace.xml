@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BooleanTest/BooleanTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -31,7 +32,7 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="89" />
+          <entry key="project.closed" value="91" />
           <entry key="project.open.time.0" value="16" />
           <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.10" value="6" />
@@ -44,16 +45,16 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="14" />
           <entry key="project.open.time.9" value="17" />
-          <entry key="project.opened" value="90" />
+          <entry key="project.opened" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="java" value="331" />
+          <entry key="java" value="332" />
           <entry key="proto" value="2" />
           <entry key="txt" value="6" />
           <entry key="xml" value="6" />
@@ -62,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="331" />
+          <entry key="JAVA" value="332" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="6" />
         </counts>
@@ -70,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="48336" />
+          <entry key="java" value="48548" />
           <entry key="proto" value="237" />
           <entry key="txt" value="44" />
           <entry key="xml" value="39" />
@@ -78,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48336" />
+          <entry key="JAVA" value="48548" />
           <entry key="PLAIN_TEXT" value="298" />
           <entry key="XML" value="39" />
         </counts>
@@ -87,11 +88,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BooleanTest/BooleanTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="886">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="106">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Thread/PrintDemo/DemoThree/MethodThree.java" />
         <option value="$PROJECT_DIR$/src/GuavaDemo/RateLimiterDemo.java" />
         <option value="$PROJECT_DIR$/src/Thread/LockAndSynchronizedTest/LockTest/LockThread.java" />
         <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame.java" />
@@ -180,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/BooleanTest/BooleanTest1.java" />
         <option value="$PROJECT_DIR$/src/BooleanTest/BooleanTest2.java" />
         <option value="$PROJECT_DIR$/src/BooleanTest/BooleanTest3.java" />
+        <option value="$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java" />
       </list>
     </option>
   </component>
@@ -195,11 +208,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="195" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-78" />
+    <option name="y" value="96" />
     <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -228,7 +241,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +263,12 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,12 +282,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552184553856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552190990072" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -300,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BooleanTest3">
+  <component name="RunManager" selected="Application.JConsoleTest">
     <configuration name="BooleanTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BooleanTest.BooleanTest1" />
       <module name="testAll" />
@@ -340,22 +359,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DHTDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DHTDemo.DHTDemo2" />
+    <configuration name="ExecutorTest1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
       <module name="testAll" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DHTDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorTest1" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
+    <configuration name="JConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.JConsleTest.JConsoleTest" />
       <module name="testAll" />
+      <option name="VM_PARAMETERS" value="-Xms100m -Xmx100m -XX:+UseSerialGC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JVM.JConsleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,19 +395,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.DHTDemo2" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.BooleanTest1" />
       <item itemvalue="Application.BooleanTest2" />
       <item itemvalue="Application.BooleanTest3" />
+      <item itemvalue="Application.JConsoleTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JConsoleTest" />
         <item itemvalue="Application.BooleanTest3" />
         <item itemvalue="Application.BooleanTest2" />
         <item itemvalue="Application.BooleanTest1" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DHTDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -490,18 +510,18 @@
       <workItem from="1551754334197" duration="400000" />
       <workItem from="1552027893025" duration="3019000" />
       <workItem from="1552110315273" duration="4354000" />
-      <workItem from="1552183440874" duration="1368000" />
+      <workItem from="1552183440874" duration="1388000" />
+      <workItem from="1552190204478" duration="1162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261348000" />
+    <option name="totallyTimeSpent" value="262530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-62" y="77" width="1552" height="626" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21552879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,7 +530,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2397163" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4198783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5531915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -683,13 +703,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GuavaDemo/RateLimiterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRULinkedHashMap/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -987,9 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,8 +1047,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BooleanTest/BooleanTest3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="106">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
