@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/outTraces.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/TestSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -33,7 +32,7 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="92" />
+          <entry key="project.closed" value="93" />
           <entry key="project.open.time.0" value="16" />
           <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.10" value="6" />
@@ -48,15 +47,15 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="15" />
-          <entry key="project.open.time.9" value="17" />
-          <entry key="project.opened" value="92" />
+          <entry key="project.open.time.9" value="18" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
           <entry key="html" value="1" />
-          <entry key="java" value="333" />
+          <entry key="java" value="335" />
           <entry key="proto" value="2" />
           <entry key="txt" value="6" />
           <entry key="xml" value="6" />
@@ -66,7 +65,7 @@
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="333" />
+          <entry key="JAVA" value="335" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="6" />
         </counts>
@@ -75,7 +74,7 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="html" value="63" />
-          <entry key="java" value="48813" />
+          <entry key="java" value="48854" />
           <entry key="proto" value="237" />
           <entry key="txt" value="44" />
           <entry key="xml" value="39" />
@@ -84,7 +83,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="63" />
-          <entry key="JAVA" value="48813" />
+          <entry key="JAVA" value="48854" />
           <entry key="PLAIN_TEXT" value="298" />
           <entry key="XML" value="39" />
         </counts>
@@ -105,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="260">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="160">
               <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="e#122#123#0" expanded="true" />
@@ -127,11 +126,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/outTraces.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sort/TestSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -170,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame.java" />
-        <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/SemaphoreDemo/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal.java" />
         <option value="$PROJECT_DIR$/src/LRUDemo/LRULinkedHashMap/LRUCache.java" />
@@ -221,6 +236,8 @@
         <option value="$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java" />
         <option value="$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/Test.java" />
         <option value="$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/outTraces.html" />
+        <option value="$PROJECT_DIR$/src/Sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/TestSort.java" />
       </list>
     </option>
   </component>
@@ -237,7 +254,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-79" />
+    <option name="x" value="-80" />
     <option name="width" value="1940" />
     <option name="height" value="1030" />
   </component>
@@ -267,8 +284,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,27 +302,7 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JVM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JVM" type="462c0819:PsiDirectoryNode" />
-              <item name="GetAllStackTracesTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="SynchronizedTest2" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +314,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552207712508" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552271759799" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -348,20 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.outTraces.html">
-    <configuration name="BooleanTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BooleanTest.BooleanTest2" />
-      <module name="testAll" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BooleanTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestSort">
     <configuration name="BooleanTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BooleanTest.BooleanTest3" />
       <module name="testAll" />
@@ -409,24 +393,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.TestSort" />
+      <module name="testAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="outTraces.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/testAll/JVM/GetAllStackTracesTest/outTraces.html">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.BooleanTest2" />
       <item itemvalue="Application.BooleanTest3" />
       <item itemvalue="Application.JConsoleTest" />
       <item itemvalue="Application.Test" />
       <item itemvalue="JavaScript Debug.outTraces.html" />
+      <item itemvalue="Application.TestSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSort" />
         <item itemvalue="JavaScript Debug.outTraces.html" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.JConsoleTest" />
         <item itemvalue="Application.BooleanTest3" />
-        <item itemvalue="Application.BooleanTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -532,16 +529,17 @@
       <workItem from="1552183440874" duration="1388000" />
       <workItem from="1552190204478" duration="1162000" />
       <workItem from="1552199010846" duration="3945000" />
+      <workItem from="1552270756519" duration="1548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266475000" />
+    <option name="totallyTimeSpent" value="268023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -719,24 +717,16 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sort/TestSort.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructureAndAlgorithm/KMP/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-662">
@@ -1060,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="260">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1070,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="160">
           <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="e#122#123#0" expanded="true" />
@@ -1082,7 +1072,21 @@
     <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/outTraces.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/TestSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

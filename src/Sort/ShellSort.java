@@ -12,7 +12,7 @@ public class ShellSort {
             for(int i = h; i < length; i++){   //插入排序
                 int j = i - h;
                 int get = nums[i];
-                while(j >= 0 && nums[i] > get){
+                while(j >= 0 && nums[j] > get){
                     nums[j + h] = nums[j];
                     j = j - h;
                 }
