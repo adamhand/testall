@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/DP/DP1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/DP/DP1/array.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/DP/LongestSubSequence/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/DP/Package01/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloReply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloReplyOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloWorldServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testAll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testAll.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -33,10 +41,10 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="99" />
+          <entry key="project.closed" value="105" />
           <entry key="project.open.time.0" value="16" />
-          <entry key="project.open.time.1" value="17" />
-          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.1" value="20" />
+          <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
@@ -47,17 +55,17 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="9" />
-          <entry key="project.open.time.8" value="15" />
+          <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="23" />
-          <entry key="project.opened" value="100" />
+          <entry key="project.opened" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
           <entry key="html" value="1" />
-          <entry key="java" value="349" />
-          <entry key="proto" value="4" />
+          <entry key="java" value="353" />
+          <entry key="proto" value="5" />
           <entry key="txt" value="7" />
           <entry key="xml" value="7" />
         </counts>
@@ -66,8 +74,8 @@
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="349" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="353" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -75,7 +83,7 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="html" value="63" />
-          <entry key="java" value="52928" />
+          <entry key="java" value="53797" />
           <entry key="proto" value="562" />
           <entry key="txt" value="74" />
           <entry key="xml" value="56" />
@@ -84,7 +92,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="63" />
-          <entry key="JAVA" value="52928" />
+          <entry key="JAVA" value="53797" />
           <entry key="PLAIN_TEXT" value="653" />
           <entry key="XML" value="56" />
         </counts>
@@ -97,25 +105,16 @@
         <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.java">
+        <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/test162_FindPeakElement/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="40">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -163,13 +162,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/DP1/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="920">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/Package01/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/LongestSubSequence/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,15 +205,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -227,8 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ProtoBuf/User.proto" />
-        <option value="$PROJECT_DIR$/src/Thread/CountdownLantchDemo/MyRunnable.java" />
         <option value="$PROJECT_DIR$/src/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/src/DataStructureAndAlgorithm/HashTableManual/readme.txt" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort.java" />
@@ -270,7 +284,6 @@
         <option value="$PROJECT_DIR$/src/Sort/TestSort.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.proto" />
-        <option value="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java" />
         <option value="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test387_FirstUniqueCharacter/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test22_GenerateParentheses/Solutiono.java" />
@@ -278,6 +291,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode/test28_ImplementstrStr/Solution.java" />
         <option value="$PROJECT_DIR$/src/Algorithm/DP/DP1/array.txt" />
         <option value="$PROJECT_DIR$/src/Algorithm/DP/DP1/Solution.java" />
+        <option value="$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/DP/Package01/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/DP/LongestSubSequence/Solution.java" />
       </list>
     </option>
   </component>
@@ -294,10 +310,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -326,6 +342,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,22 +372,26 @@
               <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-              <item name="DP1" type="462c0819:PsiDirectoryNode" />
+              <item name="SerializeDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SerializeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GrpcTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552815750448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553003344045" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -401,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="ExecutorTest1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
       <module name="testAll" />
@@ -448,12 +469,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.test387_FirstUniqueCharacter.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DP.Package01.Solution" />
       <module name="testAll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.test387_FirstUniqueCharacter.*" />
+          <option name="PATTERN" value="Algorithm.DP.Package01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -461,12 +482,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solutiono" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.test22_GenerateParentheses.Solutiono" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DP.LongestSubSequence.Solution" />
       <module name="testAll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.test22_GenerateParentheses.*" />
+          <option name="PATTERN" value="Algorithm.DP.LongestSubSequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -476,19 +497,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solutiono" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solutiono" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -601,18 +622,24 @@
       <workItem from="1552717709830" duration="1162000" />
       <workItem from="1552733350556" duration="611000" />
       <workItem from="1552786394344" duration="615000" />
-      <workItem from="1552809215673" duration="5199000" />
+      <workItem from="1552809215673" duration="5200000" />
+      <workItem from="1552869510942" duration="230000" />
+      <workItem from="1552898086602" duration="813000" />
+      <workItem from="1552912842696" duration="4750000" />
+      <workItem from="1552954142607" duration="14000" />
+      <workItem from="1552991639850" duration="2312000" />
+      <workItem from="1552999411755" duration="1134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284905000" />
+    <option name="totallyTimeSpent" value="294159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -621,7 +648,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2680851" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5531915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -805,27 +832,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LRUDemo/LRUHashMap/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test146_LRUCache/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test172_FactorialTrailingZeroes/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test202_HappyNumber/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -1084,31 +1090,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test162_FindPeakElement/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloReply.java" />
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1140,17 +1142,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test28_ImplementstrStr/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/DP1/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,12 +1166,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/DP1/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/Package01/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="416">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/LongestSubSequence/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
           </folding>
         </state>
       </provider>
