@@ -3,9 +3,8 @@ package SocketDemo.TCPTest;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.net.Socket;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class TCPClient {
 
@@ -14,8 +13,10 @@ public class TCPClient {
         try {
             socket = new Socket("127.0.0.1",10002);
             OutputStream out = socket.getOutputStream();
-            out.write("TCP演示开始！".getBytes());
-
+            PrintWriter printWriter = new PrintWriter(out);
+//            out.write("TCP演示开始！".getBytes());
+            printWriter.write("TPC演示开始");
+            printWriter.flush();
             InputStream in = socket.getInputStream();
             byte[] buf = new byte[1024];
             int len = in.read(buf);
