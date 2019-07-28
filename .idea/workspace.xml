@@ -2,12 +2,659 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/test198_HouseRobber/Solution.java" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_0_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_0_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_0_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_0_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_0_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_0_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_0_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_6_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/DP/DP1/Solution.class" afterPath="$PROJECT_DIR$/target/classes/Algorithm/DP/DP1/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/DP/LongestSubSequence/Solution.class" afterPath="$PROJECT_DIR$/target/classes/Algorithm/DP/LongestSubSequence/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/DP/Package01/Solution.class" afterPath="$PROJECT_DIR$/target/classes/Algorithm/DP/Package01/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BooleanTest/BooleanTest1.class" afterPath="$PROJECT_DIR$/target/classes/BooleanTest/BooleanTest1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BooleanTest/BooleanTest2.class" afterPath="$PROJECT_DIR$/target/classes/BooleanTest/BooleanTest2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BooleanTest/BooleanTest3.class" afterPath="$PROJECT_DIR$/target/classes/BooleanTest/BooleanTest3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BooleanTest/LotsOfBooleans.class" afterPath="$PROJECT_DIR$/target/classes/BooleanTest/LotsOfBooleans.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BooleanTest/LotsOfInts.class" afterPath="$PROJECT_DIR$/target/classes/BooleanTest/LotsOfInts.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloneTest/SerializableClone/Main.class" afterPath="$PROJECT_DIR$/target/classes/CloneTest/SerializableClone/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloneTest/SerializableClone/Student.class" afterPath="$PROJECT_DIR$/target/classes/CloneTest/SerializableClone/Student.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloneTest/SerializableClone/Teacher.class" afterPath="$PROJECT_DIR$/target/classes/CloneTest/SerializableClone/Teacher.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloneTest/test_1/Main.class" afterPath="$PROJECT_DIR$/target/classes/CloneTest/test_1/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloneTest/test_1/Student.class" afterPath="$PROJECT_DIR$/target/classes/CloneTest/test_1/Student.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloneTest/test_1/Teacher.class" afterPath="$PROJECT_DIR$/target/classes/CloneTest/test_1/Teacher.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedHashMap/LCUCache$LRUCache.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedHashMap/LCUCache$LRUCache.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedHashMap/LCUCache.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedHashMap/LCUCache.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedHashMap/LinkedHashMapDemo.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedHashMap/LinkedHashMapDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedHashSet/LinkedHashSetDemo.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedHashSet/LinkedHashSetDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListQueue/LinkedListQueue.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListQueue/LinkedListQueue.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListQueue/QueueSim.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListQueue/QueueSim.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListStack/LinkedListStack.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListStack/LinkedListStack.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListStack/StackSim.class" afterPath="$PROJECT_DIR$/target/classes/Collection/LinkedList/LinkedListStack/StackSim.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/DemoOne/MapDemoOne.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/DemoOne/MapDemoOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoOne/HashMapDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoOne/HashMapDemo$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoOne/HashMapDemo.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoOne/HashMapDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoOne/Student.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoOne/Student.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoThree/HashMapDemoThree.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoThree/HashMapDemoThree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoTwo/HashMapDemoTwo$1.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoTwo/HashMapDemoTwo$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoTwo/HashMapDemoTwo.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoTwo/HashMapDemoTwo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoTwo/Student.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/HashMapDemoTwo/Student.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/LinkedHashMapDemo/LinkedHashMapDemo.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/LinkedHashMapDemo/LinkedHashMapDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/TreeMapDemoOne/CompareByName.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/TreeMapDemoOne/CompareByName.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/TreeMapDemoOne/Student.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/TreeMapDemoOne/Student.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/MapDemo/TreeMapDemoOne/TreeMapDemoOne.class" afterPath="$PROJECT_DIR$/target/classes/Collection/MapDemo/TreeMapDemoOne/TreeMapDemoOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/Test/TestOne/GetCharCount.class" afterPath="$PROJECT_DIR$/target/classes/Collection/Test/TestOne/GetCharCount.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoOne/Person.class" afterPath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoOne/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoOne/TreeSetDemoOne.class" afterPath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoOne/TreeSetDemoOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoTwo/CompareByNameLen.class" afterPath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoTwo/CompareByNameLen.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoTwo/DemoTwo.class" afterPath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoTwo/DemoTwo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoTwo/Person.class" afterPath="$PROJECT_DIR$/target/classes/Collection/TreeSetDemo/DemoTwo/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/Flower$soutClass.class" afterPath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/Flower$soutClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/Flower.class" afterPath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/Flower.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/SonClass.class" afterPath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/SonClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/SuperClass.class" afterPath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/SuperClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/SuperFlower.class" afterPath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/SuperFlower.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/main.class" afterPath="$PROJECT_DIR$/target/classes/ConstructorTest/Test1/main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DHTDemo/DHTDemo1.class" afterPath="$PROJECT_DIR$/target/classes/DHTDemo/DHTDemo1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DHTDemo/DHTDemo2.class" afterPath="$PROJECT_DIR$/target/classes/DHTDemo/DHTDemo2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BST/BSTNode.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BST/BSTNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BST/BSTUtils.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BST/BSTUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree/BiTree$BiTreeNode.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree/BiTree$BiTreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree/BiTree.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree/BiTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree/BiTreeTest.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree/BiTreeTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree2/BiTreeNode.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree2/BiTreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree2/BiTreeTest.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree2/BiTreeTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree2/BiTreeUtils.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/BiTree2/BiTreeUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph/Graph.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph/Graph.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph/Vertex.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph/Vertex.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph2/Edge.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph2/Edge.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph2/Graph.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph2/Graph.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph2/test.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Graph2/test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/HashTableM$Node.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/HashTableM$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/HashTableM.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/HashTableM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/Main.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/HashTableManual/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/KMP/KMP.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/KMP/KMP.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/KMP/KMP2.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/KMP/KMP2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/KMP/KMP3.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/KMP/KMP3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/RBTree/RBTree.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/RBTree/RBTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/RBTree/RBTreeNode.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/RBTree/RBTreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Tree/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/DataStructureAndAlgorithm/Tree/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/Duck.class" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/Duck.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/Main.class" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/Turkey.class" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/Turkey.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/TurkeyAdapter.class" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/TurkeyAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/WideTurkey.class" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns/Adapter/WideTurkey.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DuoTai/Main.class" afterPath="$PROJECT_DIR$/target/classes/DuoTai/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DuoTai/SubClass.class" afterPath="$PROJECT_DIR$/target/classes/DuoTai/SubClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DuoTai/SuperClass.class" afterPath="$PROJECT_DIR$/target/classes/DuoTai/SuperClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exception/MyException/Demo.class" afterPath="$PROJECT_DIR$/target/classes/Exception/MyException/Demo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exception/MyException/FuShuIndexException1.class" afterPath="$PROJECT_DIR$/target/classes/Exception/MyException/FuShuIndexException1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exception/MyException/FuShuIndexException2.class" afterPath="$PROJECT_DIR$/target/classes/Exception/MyException/FuShuIndexException2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exception/MyException/MyException.class" afterPath="$PROJECT_DIR$/target/classes/Exception/MyException/MyException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExtendsConstructor/Main.class" afterPath="$PROJECT_DIR$/target/classes/ExtendsConstructor/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExtendsConstructor/SubClass.class" afterPath="$PROJECT_DIR$/target/classes/ExtendsConstructor/SubClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExtendsConstructor/SuperClass.class" afterPath="$PROJECT_DIR$/target/classes/ExtendsConstructor/SuperClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/Erasure/Erasure.class" afterPath="$PROJECT_DIR$/target/classes/Generic/Erasure/Erasure.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/GenTest/GenericTest.class" afterPath="$PROJECT_DIR$/target/classes/Generic/GenTest/GenericTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/GenericArray/GenericArray.class" afterPath="$PROJECT_DIR$/target/classes/Generic/GenericArray/GenericArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/GenericArray/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/Generic/GenericArray/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/ObjectAndT/Meat.class" afterPath="$PROJECT_DIR$/target/classes/Generic/ObjectAndT/Meat.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/ObjectAndT/Soup.class" afterPath="$PROJECT_DIR$/target/classes/Generic/ObjectAndT/Soup.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/ObjectAndT/Stove.class" afterPath="$PROJECT_DIR$/target/classes/Generic/ObjectAndT/Stove.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/ToolTest/ToolTest.class" afterPath="$PROJECT_DIR$/target/classes/Generic/ToolTest/ToolTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GenericArray/GenericArray.class" afterPath="$PROJECT_DIR$/target/classes/GenericArray/GenericArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GenericArray/GenericTest.class" afterPath="$PROJECT_DIR$/target/classes/GenericArray/GenericTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GuavaDemo/RateLimiterDemo.class" afterPath="$PROJECT_DIR$/target/classes/GuavaDemo/RateLimiterDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GuavaDemo/UserRequire.class" afterPath="$PROJECT_DIR$/target/classes/GuavaDemo/UserRequire.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IO/CopyMp3Demo/CopyMp3Demo.class" afterPath="$PROJECT_DIR$/target/classes/IO/CopyMp3Demo/CopyMp3Demo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IO/FileInputStreamDemo/FileInputStreamDemo.class" afterPath="$PROJECT_DIR$/target/classes/IO/FileInputStreamDemo/FileInputStreamDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IO/FileOutPutSreamDemo/FileOutputStreamDemo.class" afterPath="$PROJECT_DIR$/target/classes/IO/FileOutPutSreamDemo/FileOutputStreamDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IO/FileReaderWriterDemo/FileReaderWriterDemo.class" afterPath="$PROJECT_DIR$/target/classes/IO/FileReaderWriterDemo/FileReaderWriterDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/MethodInnerClass/MethodInnerClass$1.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/MethodInnerClass/MethodInnerClass$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/MethodInnerClass/MethodInnerClass.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/MethodInnerClass/MethodInnerClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$1.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$1MethodClass_1.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$1MethodClass_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$1MethodClass_2.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$1MethodClass_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$2.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$InstanceInnerClass.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$InstanceInnerClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$StaticInnerClass.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass$StaticInnerClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass.class" afterPath="$PROJECT_DIR$/target/classes/InnerClassTest/test1/OuterClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/ClassLoader/FileSystemClassLoader.class" afterPath="$PROJECT_DIR$/target/classes/JVM/ClassLoader/FileSystemClassLoader.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/Finalize/FinalizeEscapeGC.class" afterPath="$PROJECT_DIR$/target/classes/JVM/Finalize/FinalizeEscapeGC.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots01.class" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots01.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots02.class" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots02.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots03.class" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots03.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots04.class" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestGCRoots04.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GetAllStackTracesTest/Test.class" afterPath="$PROJECT_DIR$/target/classes/JVM/GetAllStackTracesTest/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/HeapOOM/HeapOOM$OOMObject.class" afterPath="$PROJECT_DIR$/target/classes/JVM/HeapOOM/HeapOOM$OOMObject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/HeapOOM/HeapOOM.class" afterPath="$PROJECT_DIR$/target/classes/JVM/HeapOOM/HeapOOM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JConsleTest/JConsoleTest$OOMObject.class" afterPath="$PROJECT_DIR$/target/classes/JVM/JConsleTest/JConsoleTest$OOMObject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JConsleTest/JConsoleTest.class" afterPath="$PROJECT_DIR$/target/classes/JVM/JConsleTest/JConsoleTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JavaMethodAreaOOM$OOMObject.class" afterPath="$PROJECT_DIR$/target/classes/JVM/JavaMethodAreaOOM$OOMObject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JavaMethodAreaOOM.class" afterPath="$PROJECT_DIR$/target/classes/JVM/JavaMethodAreaOOM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/ReferenceCountingGC.class" afterPath="$PROJECT_DIR$/target/classes/JVM/ReferenceCountingGC.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/RuntimeConstantPoolOOM/RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/target/classes/JVM/RuntimeConstantPoolOOM/RuntimeConstantPoolOOM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/StackOF/JavaVMStackOF.class" afterPath="$PROJECT_DIR$/target/classes/JVM/StackOF/JavaVMStackOF.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/StackOOM/JavaVMStackOOM$1.class" afterPath="$PROJECT_DIR$/target/classes/JVM/StackOOM/JavaVMStackOOM$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/StackOOM/JavaVMStackOOM.class" afterPath="$PROJECT_DIR$/target/classes/JVM/StackOOM/JavaVMStackOOM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestAllocation.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestAllocation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestHandlePromotion.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestHandlePromotion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestPerSizeThreshold.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestPerSizeThreshold.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestTenuringThreshold.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestTenuringThreshold.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestTenuringThreshold2.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestGC/TestTenuringThreshold2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_1$subClass.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_1$subClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_1$superClass.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_1$superClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_1.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_2$superClass.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_2$superClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_2.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_3$constClass.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_3$constClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_3.class" afterPath="$PROJECT_DIR$/target/classes/JVM/TestInitailization/NotInitialization_3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache$1.class" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache$Node.class" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache.class" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/LRUCache.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/Main.class" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRUHashMap/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRULinkedHashMap/LRUCache.class" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRULinkedHashMap/LRUCache.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUDemo/LRULinkedHashMap/Main.class" afterPath="$PROJECT_DIR$/target/classes/LRUDemo/LRULinkedHashMap/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test/test.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test/test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test101_SymmetricTree/SymmetricTree.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test101_SymmetricTree/SymmetricTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test101_SymmetricTree/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test101_SymmetricTree/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test103_BinaryTreeZigzagLevelOrderTraversal/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test103_BinaryTreeZigzagLevelOrderTraversal/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test103_BinaryTreeZigzagLevelOrderTraversal/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test103_BinaryTreeZigzagLevelOrderTraversal/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test104_MaxDeepthOfBiTree/DeepthOfBiTree.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test104_MaxDeepthOfBiTree/DeepthOfBiTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test104_MaxDeepthOfBiTree/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test104_MaxDeepthOfBiTree/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test105_ConstructBinaryTreefromPreorderandInorderTraversal/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test108_ConvertSortedArray/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test108_ConvertSortedArray/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test109_ConvertSortedListtoBinarySearchTree/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test109_ConvertSortedListtoBinarySearchTree/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test109_ConvertSortedListtoBinarySearchTree/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test109_ConvertSortedListtoBinarySearchTree/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test118_PascalTriangle/PascalTriangle.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test118_PascalTriangle/PascalTriangle.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test125_ValidPalindrome/ValidPalindrome.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test125_ValidPalindrome/ValidPalindrome.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test131_PalindromePartitioning/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test131_PalindromePartitioning/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test136_SingleNumber/SingleNumber.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test136_SingleNumber/SingleNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test138_CopyListwithRandomPointer/RandomListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test138_CopyListwithRandomPointer/RandomListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test138_CopyListwithRandomPointer/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test138_CopyListwithRandomPointer/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test13_RomanToInteger/RomanToInteger.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test13_RomanToInteger/RomanToInteger.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test141_LinkedListCycle/LinkedListCycle.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test141_LinkedListCycle/LinkedListCycle.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test141_LinkedListCycle/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test141_LinkedListCycle/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test142_LinkedListCycleII/LinkedListCycleII.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test142_LinkedListCycleII/LinkedListCycleII.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test142_LinkedListCycleII/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test142_LinkedListCycleII/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test146_LRUCache/LRUCache$Node.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test146_LRUCache/LRUCache$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test146_LRUCache/LRUCache.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test146_LRUCache/LRUCache.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test146_LRUCache/Main.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test146_LRUCache/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test147_InsertionSortList/InsertionSortList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test147_InsertionSortList/InsertionSortList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test147_InsertionSortList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test147_InsertionSortList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test148_SortList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test148_SortList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test148_SortList/SortList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test148_SortList/SortList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test14_LongestCommonPrefix/LongestCommonPrefix.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test14_LongestCommonPrefix/LongestCommonPrefix.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test151_ReverseWordsinaString/ReverseWords.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test151_ReverseWordsinaString/ReverseWords.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test155_MinStack/MinStack.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test155_MinStack/MinStack.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test160_IntersectionofTwoLinkedLists/Intersection.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test160_IntersectionofTwoLinkedLists/Intersection.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test160_IntersectionofTwoLinkedLists/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test160_IntersectionofTwoLinkedLists/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test162_FindPeakElement/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test162_FindPeakElement/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test166_Fraction/Fraction.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test166_Fraction/Fraction.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test167_TwoSum/TwoSum.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test167_TwoSum/TwoSum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test171_ExcelSheetColumnNumber/ExcelSheet.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test171_ExcelSheetColumnNumber/ExcelSheet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test172_FactorialTrailingZeroes/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test172_FactorialTrailingZeroes/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test179_LargestNumber/LargestNumber$1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test179_LargestNumber/LargestNumber$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test179_LargestNumber/LargestNumber.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test179_LargestNumber/LargestNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test17_LetterCombinations/Solution$1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test17_LetterCombinations/Solution$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test17_LetterCombinations/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test17_LetterCombinations/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test189_RotateArray/RotateArray.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test189_RotateArray/RotateArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test190_ReverseBit/ReverseBit.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test190_ReverseBit/ReverseBit.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test202_HappyNumber/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test202_HappyNumber/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test203_RemoveLinkedListElements/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test203_RemoveLinkedListElements/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test203_RemoveLinkedListElements/RemoveLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test203_RemoveLinkedListElements/RemoveLinkedList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test206_ReverseLinkedList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test206_ReverseLinkedList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test206_ReverseLinkedList/ReverseLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test206_ReverseLinkedList/ReverseLinkedList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test20_ValidParentheses/ValidParentheses.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test20_ValidParentheses/ValidParentheses.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test215_KthLargest/KthLargest.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test215_KthLargest/KthLargest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test21_MergeTwoSortedList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test21_MergeTwoSortedList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test21_MergeTwoSortedList/MergeList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test21_MergeTwoSortedList/MergeList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test22_GenerateParentheses/Solutiono.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test22_GenerateParentheses/Solutiono.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test234_PalindromeLinkedList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test234_PalindromeLinkedList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test234_PalindromeLinkedList/PalindromeLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test234_PalindromeLinkedList/PalindromeLinkedList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test240_Searcha2DMatrixII/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test240_Searcha2DMatrixII/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test242_ValidAnagram/ValidAnagram.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test242_ValidAnagram/ValidAnagram.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test24_CountPrimes/CountPrimes.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test24_CountPrimes/CountPrimes.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test24_SwapNodesinPairs/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test24_SwapNodesinPairs/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test24_SwapNodesinPairs/SwapNodes.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test24_SwapNodesinPairs/SwapNodes.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test26_RemoveDuplicatesfromSortedArray/RemoveDuplicates.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test26_RemoveDuplicatesfromSortedArray/RemoveDuplicates.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test287_FindtheDuplicateNumber/Sulotion.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test287_FindtheDuplicateNumber/Sulotion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test28_ImplementstrStr/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test28_ImplementstrStr/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test29_devideTwoIntegers/DivideTwoIntegers.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test29_devideTwoIntegers/DivideTwoIntegers.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test328_OddEvenLinkedList/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test328_OddEvenLinkedList/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test334_IncreasingTripletSubsequence/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test334_IncreasingTripletSubsequence/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test344_reverseString/RreverseString.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test344_reverseString/RreverseString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test345_ReverseString/ReverseString.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test345_ReverseString/ReverseString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test347_topKFrequentNumber/TopKFrequentNumber.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test347_topKFrequentNumber/TopKFrequentNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test349_IntersectionofTwoArrays/Intersection.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test349_IntersectionofTwoArrays/Intersection.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test350_IntersectionofTwoArraysII/Intersection.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test350_IntersectionofTwoArraysII/Intersection.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test36_isValidSudoku/isValidSudoku_1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test36_isValidSudoku/isValidSudoku_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test36_isValidSudoku/isValidSudoku_2.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test36_isValidSudoku/isValidSudoku_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test36_isValidSudoku/isValidSudoku_3.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test36_isValidSudoku/isValidSudoku_3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test387_FirstUniqueCharacter/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test387_FirstUniqueCharacter/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test392_IsSubsequence/IsSubsequence.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test392_IsSubsequence/IsSubsequence.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test406_QueueReconstruction/QueueReconstruction$1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test406_QueueReconstruction/QueueReconstruction$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test406_QueueReconstruction/QueueReconstruction.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test406_QueueReconstruction/QueueReconstruction.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test412_FizzBuzz/fizzBuzz.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test412_FizzBuzz/fizzBuzz.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test435_Non_overlappingIntervals/Interval.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test435_Non_overlappingIntervals/Interval.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test435_Non_overlappingIntervals/Non_overlapping$1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test435_Non_overlappingIntervals/Non_overlapping$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test435_Non_overlappingIntervals/Non_overlapping.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test435_Non_overlappingIntervals/Non_overlapping.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test445_AddTwoNumbersII/AddTwoNumbersII.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test445_AddTwoNumbersII/AddTwoNumbersII.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test445_AddTwoNumbersII/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test445_AddTwoNumbersII/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test451_SortCharactersByFrequency/SortChar.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test451_SortCharactersByFrequency/SortChar.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test452_MinimumNumber/MinimumNumber$1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test452_MinimumNumber/MinimumNumber$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test452_MinimumNumber/MinimumNumber.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test452_MinimumNumber/MinimumNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test455_AssignCookies/AssignCookies.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test455_AssignCookies/AssignCookies.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test49_groupAnagrams/groupAnagrams_1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test49_groupAnagrams/groupAnagrams_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test49_groupAnagrams/groupAnagrams_2.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test49_groupAnagrams/groupAnagrams_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test49_groupAnagrams/groupAnagrams_3.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test49_groupAnagrams/groupAnagrams_3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test524_LongestWord/LongestWord.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test524_LongestWord/LongestWord.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test56_MergeIntervals/Interval.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test56_MergeIntervals/Interval.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test56_MergeIntervals/MergeIntervals$1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test56_MergeIntervals/MergeIntervals$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test56_MergeIntervals/MergeIntervals.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test56_MergeIntervals/MergeIntervals.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test605_CanPlaceFlowers/CanPlaceFlowers.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test605_CanPlaceFlowers/CanPlaceFlowers.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test61_RotateList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test61_RotateList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test61_RotateList/RotateList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test61_RotateList/RotateList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test633_JudgeSqrt/JudgeSqrt.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test633_JudgeSqrt/JudgeSqrt.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test665_NondecreasingArray/NondecreasingArray.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test665_NondecreasingArray/NondecreasingArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test66_PlusOne/PlusOne.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test66_PlusOne/PlusOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test680_ValidPalindrome/ValidPalindrome.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test680_ValidPalindrome/ValidPalindrome.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test70_ClimbingStairs/ClimbingStairs.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test70_ClimbingStairs/ClimbingStairs.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test763_PartitionLabels/PartitionLabels.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test763_PartitionLabels/PartitionLabels.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test78_subset/subset.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test78_subset/subset.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test79_wordSearch/WordSearch.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test79_wordSearch/WordSearch.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test7_ReverseInteger/ReverseInteger.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test7_ReverseInteger/ReverseInteger.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test817_LinkedListComponents/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test817_LinkedListComponents/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test817_LinkedListComponents/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test817_LinkedListComponents/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test82_RemoveDuplicationsInList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test82_RemoveDuplicationsInList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test82_RemoveDuplicationsInList/RemoveDuplictions.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test82_RemoveDuplicationsInList/RemoveDuplictions.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test83_RemoveDuplicatesfromSortedList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test83_RemoveDuplicatesfromSortedList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test83_RemoveDuplicatesfromSortedList/RemoveDuplicates.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test83_RemoveDuplicatesfromSortedList/RemoveDuplicates.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test86_PartitionList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test86_PartitionList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test86_PartitionList/PartitionList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test86_PartitionList/PartitionList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test876_MiddleoftheLinkedList/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test876_MiddleoftheLinkedList/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test876_MiddleoftheLinkedList/MiddleoftheLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test876_MiddleoftheLinkedList/MiddleoftheLinkedList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test88_MergeSortedArray/MergeSortedArray.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test88_MergeSortedArray/MergeSortedArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test8_myAtoi/myAtoi_1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test8_myAtoi/myAtoi_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test92_ReversListNtoM/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test92_ReversListNtoM/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test92_ReversListNtoM/Solution.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test92_ReversListNtoM/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test94_inOrderTraversal/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test94_inOrderTraversal/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test94_inOrderTraversal/inOrderTraversal_1.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test94_inOrderTraversal/inOrderTraversal_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/test94_inOrderTraversal/inOrderTraversal_2.class" afterPath="$PROJECT_DIR$/target/classes/LeetCode/test94_inOrderTraversal/inOrderTraversal_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyStack/ArrayStack.class" afterPath="$PROJECT_DIR$/target/classes/MyStack/ArrayStack.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NewAObject/Child.class" afterPath="$PROJECT_DIR$/target/classes/NewAObject/Child.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NewAObject/NewAObject.class" afterPath="$PROJECT_DIR$/target/classes/NewAObject/NewAObject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NewAObject/Parent.class" afterPath="$PROJECT_DIR$/target/classes/NewAObject/Parent.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectCreateProcess/Main.class" afterPath="$PROJECT_DIR$/target/classes/ObjectCreateProcess/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectCreateProcess/SubClass.class" afterPath="$PROJECT_DIR$/target/classes/ObjectCreateProcess/SubClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectCreateProcess/SuperClass.class" afterPath="$PROJECT_DIR$/target/classes/ObjectCreateProcess/SuperClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/DeleteDuplicationInList/DeleteDuplication.class" afterPath="$PROJECT_DIR$/target/classes/Offer/DeleteDuplicationInList/DeleteDuplication.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/DeleteDuplicationInList/Node.class" afterPath="$PROJECT_DIR$/target/classes/Offer/DeleteDuplicationInList/Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/DeleteOneNode/DeleteOneNodeInList.class" afterPath="$PROJECT_DIR$/target/classes/Offer/DeleteOneNode/DeleteOneNodeInList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/DeleteOneNode/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/DeleteOneNode/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/KthNode/KthNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/KthNode/KthNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/KthNode/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/KthNode/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/ListNodeUtils/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/ListNodeUtils/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/ListNodeUtils/ListNodeUtils.class" afterPath="$PROJECT_DIR$/target/classes/Offer/ListNodeUtils/ListNodeUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/NumbersOfOne/IsIntegralMultipleOf2.class" afterPath="$PROJECT_DIR$/target/classes/Offer/NumbersOfOne/IsIntegralMultipleOf2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/NumbersOfOne/NumberOfOne.class" afterPath="$PROJECT_DIR$/target/classes/Offer/NumbersOfOne/NumberOfOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/NumbersOfOne/RelatedTwo.class" afterPath="$PROJECT_DIR$/target/classes/Offer/NumbersOfOne/RelatedTwo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/OneToN/OneToN.class" afterPath="$PROJECT_DIR$/target/classes/Offer/OneToN/OneToN.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/OneToN/OneToN_2.class" afterPath="$PROJECT_DIR$/target/classes/Offer/OneToN/OneToN_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/OneToN/PermutationAndCombination.class" afterPath="$PROJECT_DIR$/target/classes/Offer/OneToN/PermutationAndCombination.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/Power/Power.class" afterPath="$PROJECT_DIR$/target/classes/Offer/Power/Power.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/Regex/Regex.class" afterPath="$PROJECT_DIR$/target/classes/Offer/Regex/Regex.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/ReverseString/ReverseString.class" afterPath="$PROJECT_DIR$/target/classes/Offer/ReverseString/ReverseString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test54/IsNumeric.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test54/IsNumeric.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test54/IsNumic_1.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test54/IsNumic_1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test54/IsNumic_2.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test54/IsNumic_2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_14/ReOrderArray.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_14/ReOrderArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_15/FindKthToTail.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_15/FindKthToTail.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_15/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_15/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_16/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_16/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_16/ReverseList.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_16/ReverseList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_17/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_17/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_17/MergeList.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_17/MergeList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_18/HasSubTree.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_18/HasSubTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_19/BiTreeMirrorTest.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_19/BiTreeMirrorTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_20/PrintMatrix.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_20/PrintMatrix.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_21/StackWithMin.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_21/StackWithMin.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_22/IsPopOrder$TestDemo.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_22/IsPopOrder$TestDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_22/IsPopOrder.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_22/IsPopOrder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_24/VerifySequence$Test.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_24/VerifySequence$Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_24/VerifySequence.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_24/VerifySequence.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_25/FindPath.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_25/FindPath.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_26/CloneNode$RandomListUtils.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_26/CloneNode$RandomListUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_26/CloneNode$Test.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_26/CloneNode$Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_26/CloneNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_26/CloneNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_26/RandomListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_26/RandomListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_27/ConvertTreeToList$Test.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_27/ConvertTreeToList$Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_27/ConvertTreeToList.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_27/ConvertTreeToList.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_28/PermutationString.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_28/PermutationString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_30/GetLeastKNumbers$1.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_30/GetLeastKNumbers$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_30/GetLeastKNumbers.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_30/GetLeastKNumbers.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_31/FindGreatestSumOfSubArray.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_31/FindGreatestSumOfSubArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_32/NumOfOne.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_32/NumOfOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_33/MinestNumber$1.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_33/MinestNumber$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_33/MinestNumber.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_33/MinestNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_34/UglyNumber.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_34/UglyNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_35/FirstNotRepeatingChar.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_35/FirstNotRepeatingChar.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_37/FindFirstCommonNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_37/FindFirstCommonNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_37/ListUtils.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_37/ListUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_38/GetNumberOfK.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_38/GetNumberOfK.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_39/DeepOfBiTree.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_39/DeepOfBiTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_39_1/IsBalacned.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_39_1/IsBalacned.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_39_1/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_39_1/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_40/FindNumberAppendOnce.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_40/FindNumberAppendOnce.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_41/FindNumbersWithSum.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_41/FindNumbersWithSum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_41_1/FindContinuousSequence.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_41_1/FindContinuousSequence.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_42/ReverseString.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_42/ReverseString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_42_1/LeftRightRotateString.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_42_1/LeftRightRotateString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_43/Probability.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_43/Probability.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_44/IsContinuous.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_44/IsContinuous.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_45/LastRemaining.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_45/LastRemaining.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_46/SumFrom1ToN.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_46/SumFrom1ToN.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_47/AddTwoNumber.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_47/AddTwoNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_49/StringToIntegerr.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_49/StringToIntegerr.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_50/LowestCommonAncestor.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_50/LowestCommonAncestor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_50/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_50/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_52/Multiply.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_52/Multiply.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_55/test_55.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_55/test_55.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_56/EntryInALoop.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_56/EntryInALoop.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_56/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_56/ListNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_59/IsSymmetrical.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_59/IsSymmetrical.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_60/PrintMultiline.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_60/PrintMultiline.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_61/PrintWithMultiline.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_61/PrintWithMultiline.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_62/SerializeBiTree.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_62/SerializeBiTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_64/GetMidianNum$1.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_64/GetMidianNum$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_64/GetMidianNum.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_64/GetMidianNum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_65/MaxInWindow.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_65/MaxInWindow.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_null/IndexOfNumber.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_null/IndexOfNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_null1/TranslateNumbersToString.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_null1/TranslateNumbersToString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_null2/MaxValueOfGifts$Node.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_null2/MaxValueOfGifts$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_null2/MaxValueOfGifts.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_null2/MaxValueOfGifts.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Offer/test_null3/LengthOfLongestSubstring.class" afterPath="$PROJECT_DIR$/target/classes/Offer/test_null3/LengthOfLongestSubstring.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_1/Main.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_1/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_1/OuterClass$InnerClass.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_1/OuterClass$InnerClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_1/OuterClass.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_1/OuterClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_2/Main.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_2/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_2/OuterClass$1InnerClass.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_2/OuterClass$1InnerClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_2/OuterClass.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_2/OuterClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_3/Main.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_3/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_3/OuterClass$InnerClass.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_3/OuterClass$InnerClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_3/OuterClass.class" afterPath="$PROJECT_DIR$/target/classes/OuterClass/OuterClass_3/OuterClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ParameterPassing/ParameterPassing.class" afterPath="$PROJECT_DIR$/target/classes/ParameterPassing/ParameterPassing.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PersonAndCar/Car.class" afterPath="$PROJECT_DIR$/target/classes/PersonAndCar/Car.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PersonAndCar/Main.class" afterPath="$PROJECT_DIR$/target/classes/PersonAndCar/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PersonAndCar/Person.class" afterPath="$PROJECT_DIR$/target/classes/PersonAndCar/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/CGLibProxy/CGLibProxy.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/CGLibProxy/CGLibProxy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/CGLibProxy/main.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/CGLibProxy/main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/DynamicProxy/DynamicProxy.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/DynamicProxy/DynamicProxy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/DynamicProxy/main.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/DynamicProxy/main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/Hello.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/Hello.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/HelloImp.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/HelloImp.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/HelloProxy.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/HelloProxy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/main.class" afterPath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy/main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Reflect/Demo1/Demo1.class" afterPath="$PROJECT_DIR$/target/classes/Reflect/Demo1/Demo1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23$KeyItem.class" afterPath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23$KeyItem.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23$Node.class" afterPath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23$ValueItem.class" afterPath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23$ValueItem.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23.class" afterPath="$PROJECT_DIR$/target/classes/Search/AVL23Tree/Tree23.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/BinarySearchIterator.class" afterPath="$PROJECT_DIR$/target/classes/Search/BinarySearchIterator.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/BinarySearchRecursion.class" afterPath="$PROJECT_DIR$/target/classes/Search/BinarySearchRecursion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/BinarySearchTree/BST$Node.class" afterPath="$PROJECT_DIR$/target/classes/Search/BinarySearchTree/BST$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/BinarySearchTree/BST.class" afterPath="$PROJECT_DIR$/target/classes/Search/BinarySearchTree/BST.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/BinarySearchTree/BSTTest.class" afterPath="$PROJECT_DIR$/target/classes/Search/BinarySearchTree/BSTTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/FinonacciSearch.class" afterPath="$PROJECT_DIR$/target/classes/Search/FinonacciSearch.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/InsertionSearch.class" afterPath="$PROJECT_DIR$/target/classes/Search/InsertionSearch.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/InsertionSearchRecursion.class" afterPath="$PROJECT_DIR$/target/classes/Search/InsertionSearchRecursion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/SearchTest.class" afterPath="$PROJECT_DIR$/target/classes/Search/SearchTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search/SequenceSearch.class" afterPath="$PROJECT_DIR$/target/classes/Search/SequenceSearch.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo1/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo1/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo1/User.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo1/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo2/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo2/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo2/User.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo2/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo3/Test.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo3/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo4/Human.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo4/Human.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo4/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo4/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo4/Person.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo4/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo5/Encryption.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/Demo5/Encryption.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/FstDemo/Main$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/FstDemo/Main$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/FstDemo/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/FstDemo/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/GrpcTest.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/GrpcTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReply$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReply$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReply$Builder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReply$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReply.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReply.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReplyOrBuilder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloReplyOrBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequest$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequest$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequest$Builder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequest$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequest.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequestOrBuilder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/HelloRequestOrBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/hello$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/hello$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/hello.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/GrpcTest/hello.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/HessianDemo/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/HessianDemo/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/HessianDemo/User.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/HessianDemo/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/JSONDemo/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/JSONDemo/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/Serializer.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/Serializer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/kryoSerializer$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/kryoSerializer$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/kryoSerializer.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/KryoDemo/kryoSerializer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ClientTest/ProtoBufClient.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ClientTest/ProtoBufClient.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$Address$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$Address$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$Address$Builder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$Address$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$Address.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$Address.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$AddressOrBuilder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$AddressOrBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$User$1.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$User$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$User$Builder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$User$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$User.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$UserOrBuilder.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto$UserOrBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ServerTest/ProtoBufServer.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtoBufDemo/ServerTest/ProtoBufServer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtostuffDemo/Main.class" afterPath="$PROJECT_DIR$/target/classes/SerializeDemo/ProtostuffDemo/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Shift/LoopLeftShift.class" afterPath="$PROJECT_DIR$/target/classes/Shift/LoopLeftShift.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Shift/StringShift.class" afterPath="$PROJECT_DIR$/target/classes/Shift/StringShift.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/TCPTest/TCPClient.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/TCPTest/TCPClient.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/TCPTest/TCPServer.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/TCPTest/TCPServer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UDPTest/UDPReceive.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UDPTest/UDPReceive.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UDPTest/UDPSend.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UDPTest/UDPSend.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UDPThread/Main.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UDPThread/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UDPThread/UDPReceive.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UDPThread/UDPReceive.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UDPThread/UDPSend.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UDPThread/UDPSend.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UploadPicture/UploadPictureClient.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UploadPicture/UploadPictureClient.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UploadPicture/UploadPictureServer.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UploadPicture/UploadPictureServer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketDemo/UploadPicture/UploadTask.class" afterPath="$PROJECT_DIR$/target/classes/SocketDemo/UploadPicture/UploadTask.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/BirdSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/BirdSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/BoobleSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/BoobleSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/BucketSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/BucketSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/CocktailSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/CocktailSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/CountSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/CountSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/HeapSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/HeapSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/InsertSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/InsertSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/InsertionSortDichotomy.class" afterPath="$PROJECT_DIR$/target/classes/Sort/InsertionSortDichotomy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/LSDRadisSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/LSDRadisSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/MergeSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/MergeSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/QuickSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/QuickSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/RadixSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/RadixSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/SelectionSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/SelectionSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/ShellSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/ShellSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/SortUtils.class" afterPath="$PROJECT_DIR$/target/classes/Sort/SortUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/TestSort.class" afterPath="$PROJECT_DIR$/target/classes/Sort/TestSort.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SystemProperties/Environment/GetEnvTest.class" afterPath="$PROJECT_DIR$/target/classes/SystemProperties/Environment/GetEnvTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SystemProperties/Properties/GetProTest.class" afterPath="$PROJECT_DIR$/target/classes/SystemProperties/Properties/GetProTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Person.class" afterPath="$PROJECT_DIR$/target/classes/Test/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/RefOrData/ChangeNumber.class" afterPath="$PROJECT_DIR$/target/classes/Test/RefOrData/ChangeNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/RefOrData/Dog.class" afterPath="$PROJECT_DIR$/target/classes/Test/RefOrData/Dog.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/RefOrData/PassByValueExample.class" afterPath="$PROJECT_DIR$/target/classes/Test/RefOrData/PassByValueExample.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/StringTest.class" afterPath="$PROJECT_DIR$/target/classes/Test/StringTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Test1.class" afterPath="$PROJECT_DIR$/target/classes/Test/Test1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestCPU.class" afterPath="$PROJECT_DIR$/target/classes/Test/TestCPU.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestMain.class" afterPath="$PROJECT_DIR$/target/classes/Test/TestMain.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/AtometicIntegerDemo/AutometicIntegerDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/AtometicIntegerDemo/AutometicIntegerDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/AtometicIntegerDemo/Ticket.class" afterPath="$PROJECT_DIR$/target/classes/Thread/AtometicIntegerDemo/Ticket.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/BankDemo/BandDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/BankDemo/BandDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/BankDemo/Bank.class" afterPath="$PROJECT_DIR$/target/classes/Thread/BankDemo/Bank.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/BankDemo/Customer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/BankDemo/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/BlockingSynchronizedThread/BlockingSynchronizedThread$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/BlockingSynchronizedThread/BlockingSynchronizedThread$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/BlockingSynchronizedThread/BlockingSynchronizedThread$LinkBlockThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/BlockingSynchronizedThread/BlockingSynchronizedThread$LinkBlockThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/BlockingSynchronizedThread/BlockingSynchronizedThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/BlockingSynchronizedThread/BlockingSynchronizedThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/CyclicBarrierDemo/CyclicBarrierDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$3.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$4.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/LOLDemo/CountDownLatchGame.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/Main.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/MyRunnable.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/MyRunnable.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/SemaphoreDemo/SemaphoreDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/SemaphoreDemo/SemaphoreDemo$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/SemaphoreDemo/SemaphoreDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/CountdownLantchDemo/SemaphoreDemo/SemaphoreDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_1/DeadLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_1/DeadLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_1/Ticket.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_1/Ticket.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_2/DeadLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_2/DeadLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_2/MyLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_2/MyLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_2/Test.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_2/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_3/DeadLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_3/DeadLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_3/MyLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_3/MyLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_3/Test.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_3/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_4/DeadLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_4/DeadLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_4/MyLock.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_4/MyLock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DeadLock_4/Test.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DeadLock_4/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DelayedQueueDemo/WangBa.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DelayedQueueDemo/WangBa.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/DelayedQueueDemo/Wangmin.class" afterPath="$PROJECT_DIR$/target/classes/Thread/DelayedQueueDemo/Wangmin.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/EmployerTest/Employer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/EmployerTest/Employer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/EmployerTest/Lottery.class" afterPath="$PROJECT_DIR$/target/classes/Thread/EmployerTest/Lottery.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/EmployerTest/Main.class" afterPath="$PROJECT_DIR$/target/classes/Thread/EmployerTest/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ExecutorDemo/Demo1/Demo1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ExecutorDemo/Demo1/Demo1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ExecutorDemo/Demo1/MyCallable.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ExecutorDemo/Demo1/MyCallable.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ExitThread/ExitThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ExitThread/ExitThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ExitThread/MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ExitThread/MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ExtendThreadClass/ExtendThreadClass.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ExtendThreadClass/ExtendThreadClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ExtendThreadClass/MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ExtendThreadClass/MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ForkJoinExample.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ForkJoinExample.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ImplementCallableInterface/ImplCallableInter.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ImplementCallableInterface/ImplCallableInter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ImplementCallableInterface/MyCallable.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ImplementCallableInterface/MyCallable.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ImplementRunnableInterface/ImplRunnableInter.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ImplementRunnableInterface/ImplRunnableInter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ImplementRunnableInterface/MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ImplementRunnableInterface/MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/InterruptExitThread/InterruptExitThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/InterruptExitThread/InterruptExitThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/InterruptExitThread/MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/InterruptExitThread/MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/IsAliveTest/IsAliveTest.class" afterPath="$PROJECT_DIR$/target/classes/Thread/IsAliveTest/IsAliveTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/IsAliveTest/MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/IsAliveTest/MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/JoinMethod/JoinMethod.class" afterPath="$PROJECT_DIR$/target/classes/Thread/JoinMethod/JoinMethod.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/JoinMethod/MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/JoinMethod/MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/Consumer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/Consumer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/LockThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/LockThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/Productor.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/Productor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/Resource.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/Resource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/TimerWatcher.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/LockTest/TimerWatcher.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/Consumer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/Consumer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/Producer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/Producer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/Resource.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/Resource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/SynchronizedThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/SynchronizedThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/TimerWatcher.class" afterPath="$PROJECT_DIR$/target/classes/Thread/LockAndSynchronizedTest/SynchronizedTest/TimerWatcher.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/Input.class" afterPath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/Input.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/MikeAndLili.class" afterPath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/MikeAndLili.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/Output.class" afterPath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/Output.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/Resource.class" afterPath="$PROJECT_DIR$/target/classes/Thread/MikeAndLili/Resource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/NativeStackOF.class" afterPath="$PROJECT_DIR$/target/classes/Thread/NativeStackOF.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoFour/MethodFour$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoFour/MethodFour$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoFour/MethodFour$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoFour/MethodFour$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoFour/MethodFour.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoFour/MethodFour.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne$threadToGo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne$threadToGo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoOne/MethodOne.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree$ThreadToGo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree$ThreadToGo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoThree/MethodThree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo$ThreadToGo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo$ThreadToGo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/DemoTwo/MethodTwo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/ToolUtil/HelperTool.class" afterPath="$PROJECT_DIR$/target/classes/Thread/PrintDemo/ToolUtil/HelperTool.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/Customer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/Producer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/Producer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/ProducerAndCustomer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/ProducerAndCustomer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/Resource.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_1/Resource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/Customer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/Producer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/Producer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/ProducerAndCustomer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/ProducerAndCustomer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/Resource.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_2/Resource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/Customer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/Producer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/Producer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/ProducerAndCustomer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/ProducerAndCustomer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/Resource.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProducerAndCustomer_3/Resource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer$Consumer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer$Consumer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer$Productor.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer$Productor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ProductorConsumer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ReetrantReadWriteLockDemo/Demo1/ReentrantReadWriteLockTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest/SynchronizedTest.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest/SynchronizedTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/Main.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/SynchronizedClass.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/SynchronizedClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/Thread1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/Thread1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/Thread2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest2/Thread2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest3/Solution$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest3/Solution$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest3/Solution$2.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest3/Solution$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest3/Solution.class" afterPath="$PROJECT_DIR$/target/classes/Thread/SynchronizedTest3/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/TestPipedConnection/Customer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/TestPipedConnection/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/TestPipedConnection/Producer.class" afterPath="$PROJECT_DIR$/target/classes/Thread/TestPipedConnection/Producer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/TestPipedConnection/TestPipedConnection.class" afterPath="$PROJECT_DIR$/target/classes/Thread/TestPipedConnection/TestPipedConnection.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo/ThreadLocalDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo/ThreadLocalDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo/Ticket$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo/Ticket$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo/Ticket.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo/Ticket.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal$MyThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal$MyThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalDemo1/DirtyDataInThreadLocal.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalTest/SeqCount$1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalTest/SeqCount$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalTest/SeqCount$SeqThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalTest/SeqCount$SeqThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalTest/SeqCount.class" afterPath="$PROJECT_DIR$/target/classes/Thread/ThreadLocalTest/SeqCount.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/TicketDemo/Ticket.class" afterPath="$PROJECT_DIR$/target/classes/Thread/TicketDemo/Ticket.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/TicketDemo/TicketDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/TicketDemo/TicketDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/VolatileDemo/Ticket.class" afterPath="$PROJECT_DIR$/target/classes/Thread/VolatileDemo/Ticket.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/VolatileDemo/VolatileDemo.class" afterPath="$PROJECT_DIR$/target/classes/Thread/VolatileDemo/VolatileDemo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkStealingDemo/WorkStealingEnableChannel.class" afterPath="$PROJECT_DIR$/target/classes/WorkStealingDemo/WorkStealingEnableChannel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test217_ContainsDuplicate/Solution.class" afterPath="$PROJECT_DIR$/target/classes/test217_ContainsDuplicate/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test33_SearchinRotatedSortedArray/Solution.class" afterPath="$PROJECT_DIR$/target/classes/test33_SearchinRotatedSortedArray/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/testAll.iml" afterPath="$PROJECT_DIR$/testAll.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +664,11 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/testAll$DivideTwoIntegers.ic" NAME="DivideTwoIntegers Coverage Results" MODIFIED="1541766075958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>LeetCode.test29_devideTwoIntegers.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/testAll$CountPrimes.ic" NAME="CountPrimes Coverage Results" MODIFIED="1541940861768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LeetCode.test24_CountPrimes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testAll$DivideTwoIntegers.ic" NAME="DivideTwoIntegers Coverage Results" MODIFIED="1541766075958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LeetCode.test29_devideTwoIntegers.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
@@ -91,104 +738,111 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SystemProperties/Environment/GetEnvTest.java">
+    <leaf>
+      <file leaf-file-name="InterruptExitThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Thread/InterruptExitThread/InterruptExitThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="484">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeadLock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Thread/DeadLock_1/DeadLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperFlower.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#83#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/test198_HouseRobber/Solution.java">
+      <file leaf-file-name="ForkJoinExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Thread/ForkJoinExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state relative-caret-position="88">
+              <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SystemProperties/Properties/GetProTest.java">
+      <file leaf-file-name="StackToQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/Channel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/SocketOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SocketChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2260">
-              <caret line="144" column="51" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
+            <state relative-caret-position="577">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
-                <element signature="e#4631#4632#0" expanded="true" />
-                <element signature="e#4662#4663#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/SelectorProvider.java">
+      <file leaf-file-name="QueueToStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4400">
-              <caret line="251" column="34" selection-start-line="251" selection-start-column="34" selection-end-line="251" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+            <state relative-caret-position="286">
+              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
               <folding>
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#1974#1975#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/io/FileOutputStream.java">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4280">
-              <caret line="238" column="11" selection-start-line="238" selection-start-column="11" selection-end-line="238" selection-end-column="11" />
+            <state relative-caret-position="207">
+              <caret line="757" column="13" lean-forward="false" selection-start-line="757" selection-start-column="13" selection-end-line="757" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <file leaf-file-name="RecursiveTask.java" pinned="false" current-in-tab="false">
+        <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/RecursiveTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="215">
+              <caret line="67" column="54" lean-forward="false" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinTask.java" pinned="false" current-in-tab="false">
+        <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/ForkJoinTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="211" column="22" lean-forward="false" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flower.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/Flower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,11 +878,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/test108_ConvertSortedArray/ConvertSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/test109_ConvertSortedListtoBinarySearchTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test287_FindtheDuplicateNumber/Sulotion.java" />
         <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java" />
@@ -272,12 +929,14 @@
         <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/SonClass.java" />
         <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/main.java" />
-        <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java" />
         <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/Flower.java" />
         <option value="$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/SystemProperties/Environment/GetEnvTest.java" />
         <option value="$PROJECT_DIR$/src/SystemProperties/Properties/GetProTest.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test198_HouseRobber/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java" />
+        <option value="$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java" />
+        <option value="$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java" />
       </list>
     </option>
   </component>
@@ -294,8 +953,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="455" />
+    <option name="x" value="2188" />
+    <option name="y" value="203" />
     <option name="width" value="1940" />
     <option name="height" value="1030" />
   </component>
@@ -320,8 +979,17 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
       <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -330,30 +998,33 @@
         <subPane>
           <expand>
             <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="testall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testall" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="testall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="testall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Offer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="testall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemProperties" type="462c0819:PsiDirectoryNode" />
+              <item name="Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="StackAndQueue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -370,6 +1041,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="SearchEverywhereHistoryKey" value="Flower&#9;FILE&#9;file://H:/Git/testall/testall/src/ConstructorTest/Test1/Flower.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -392,96 +1064,136 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetProTest">
-    <configuration name="ExecutorTest1" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
-      <module name="testAll" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Flower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConstructorTest.Test1.Flower" />
-      <module name="testAll" />
-      <extension name="coverage">
+  <component name="RunManager" selected="Application.QueueToStack">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ConstructorTest.Test1.*" />
+          <option name="PATTERN" value="Thread.DeadLock_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="MAIN_CLASS_NAME" value="Thread.DeadLock_1.DeadLock" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testAll" />
+      <envs />
+    </configuration>
+    <configuration name="ExecutorTest1" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testAll" />
+      <envs />
     </configuration>
     <configuration name="GetEnvTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SystemProperties.Environment.GetEnvTest" />
-      <module name="testAll" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="SystemProperties.Environment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="MAIN_CLASS_NAME" value="SystemProperties.Environment.GetEnvTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testAll" />
+      <envs />
     </configuration>
     <configuration name="GetProTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SystemProperties.Properties.GetProTest" />
-      <module name="testAll" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="SystemProperties.Properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SocketDemo.TCPTest.TCPClient" />
+      <option name="MAIN_CLASS_NAME" value="SystemProperties.Properties.GetProTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="testAll" />
-      <extension name="coverage">
+      <envs />
+    </configuration>
+    <configuration name="QueueToStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="SocketDemo.TCPTest.*" />
+          <option name="PATTERN" value="Offer.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConstructorTest.Test1.main" />
+      <option name="MAIN_CLASS_NAME" value="Offer.StackAndQueue.QueueToStack" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="testAll" />
-      <extension name="coverage">
+      <envs />
+    </configuration>
+    <configuration name="StackToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ConstructorTest.Test1.*" />
+          <option name="PATTERN" value="Offer.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="MAIN_CLASS_NAME" value="Offer.StackAndQueue.StackToQueue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testAll" />
+      <envs />
     </configuration>
-    <list>
-      <item itemvalue="Application.ExecutorTest1" />
-      <item itemvalue="Application.TCPClient" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.Flower" />
-      <item itemvalue="Application.GetEnvTest" />
-      <item itemvalue="Application.GetProTest" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.ExecutorTest1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GetEnvTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GetProTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DeadLock" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StackToQueue" />
+      <item index="5" class="java.lang.String" itemvalue="Application.QueueToStack" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.GetProTest" />
-        <item itemvalue="Application.GetEnvTest" />
-        <item itemvalue="Application.Flower" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.TCPClient" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.QueueToStack" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StackToQueue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DeadLock" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GetProTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GetEnvTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -606,44 +1318,47 @@
       <workItem from="1553403571601" duration="2296000" />
       <workItem from="1553565531931" duration="1668000" />
       <workItem from="1554169476375" duration="108000" />
+      <workItem from="1563758531187" duration="1547000" />
+      <workItem from="1563762138108" duration="6812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304840000" />
+    <option name="totallyTimeSpent" value="313199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.27092198" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5531915" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34042552" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3696884" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32056737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991294" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26985854" sideWeight="0.5026652" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26985854" sideWeight="0.49733475" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33949944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23454158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.257889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,177 +1520,80 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="310" column="27" selection-start-line="310" selection-start-column="27" selection-end-line="310" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BooleanTest/BooleanTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JVM/JConsleTest/JConsoleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/TestSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2840">
-          <caret line="142" column="18" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/outTraces.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ClientTest/ProtoBufClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ServerTest/ProtoBufServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ProtoBuf/User.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="1544" column="15" selection-start-line="1544" selection-start-column="15" selection-end-line="1544" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test162_FindPeakElement/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java" />
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloReply.java" />
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.java" />
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test387_FirstUniqueCharacter/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test22_GenerateParentheses/Solutiono.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test17_LetterCombinations/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test28_ImplementstrStr/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/DP1/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/Package01/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/DP1/array.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/DP/LongestSubSequence/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -983,172 +1601,213 @@
     <entry file="file://$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SuperClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SonClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/Flower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/security/AccessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="526" column="8" selection-start-line="526" selection-start-column="8" selection-end-line="526" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/InetSocketAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="214" column="11" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="953" column="40" selection-start-line="953" selection-start-column="40" selection-end-line="953" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/AbstractPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="443" column="54" selection-start-line="443" selection-start-column="54" selection-end-line="443" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SelectorProviderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/security/AccessController.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/InetSocketAddress.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/Socket.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/AbstractPlainSocketImpl.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SelectorProviderImpl.class" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class" />
     <entry file="file://$PROJECT_DIR$/src/SocketDemo/TCPTest/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemProperties/Properties/GetProTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/SocketOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2260">
-          <caret line="144" column="51" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
-          <folding>
-            <element signature="e#4631#4632#0" expanded="true" />
-            <element signature="e#4662#4663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/SelectorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4400">
-          <caret line="251" column="34" selection-start-line="251" selection-start-column="34" selection-end-line="251" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-          <folding>
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4280">
-          <caret line="238" column="11" selection-start-line="238" selection-start-column="11" selection-end-line="238" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/Channel.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/SocketOutputStream.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SocketChannel.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/SelectorProvider.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/io/FileOutputStream.java" />
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/net/DualStackPlainSocketImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/SystemProperties/Environment/GetEnvTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/test198_HouseRobber/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="407">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemProperties/Properties/GetProTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/ProductorConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/MikeAndLili/MikeAndLili.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/InterruptExitThread/InterruptExitThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/SerializeDemo/GrpcTest/HelloReplyOrBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/DeadLock_1/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="211" column="22" lean-forward="false" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="67" column="54" lean-forward="false" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/ForkJoinExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="757" column="13" lean-forward="false" selection-start-line="757" selection-start-column="13" selection-end-line="757" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
