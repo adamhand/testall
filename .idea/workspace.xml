@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fb5b92-e0d3-4c51-8399-6ae86624c2b0" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
@@ -649,6 +650,10 @@
       <change beforePath="$PROJECT_DIR$/target/classes/test217_ContainsDuplicate/Solution.class" afterPath="$PROJECT_DIR$/target/classes/test217_ContainsDuplicate/Solution.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/test33_SearchinRotatedSortedArray/Solution.class" afterPath="$PROJECT_DIR$/target/classes/test33_SearchinRotatedSortedArray/Solution.class" />
       <change beforePath="$PROJECT_DIR$/testAll.iml" afterPath="$PROJECT_DIR$/testAll.iml" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/arthas_demo/MathGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/testall/target/" />
@@ -678,31 +683,31 @@
     <session id="1887551051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="113" />
+          <entry key="project.closed" value="118" />
           <entry key="project.open.time.0" value="16" />
           <entry key="project.open.time.1" value="22" />
           <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="18" />
-          <entry key="project.open.time.9" value="24" />
-          <entry key="project.opened" value="113" />
+          <entry key="project.open.time.9" value="25" />
+          <entry key="project.opened" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
           <entry key="html" value="1" />
-          <entry key="java" value="376" />
+          <entry key="java" value="382" />
           <entry key="proto" value="5" />
           <entry key="txt" value="7" />
           <entry key="xml" value="7" />
@@ -712,7 +717,7 @@
         <counts>
           <entry key="CLASS" value="9" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="376" />
+          <entry key="JAVA" value="382" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="7" />
         </counts>
@@ -721,7 +726,7 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="html" value="63" />
-          <entry key="java" value="55291" />
+          <entry key="java" value="55636" />
           <entry key="proto" value="562" />
           <entry key="txt" value="74" />
           <entry key="xml" value="56" />
@@ -730,7 +735,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="63" />
-          <entry key="JAVA" value="55291" />
+          <entry key="JAVA" value="55636" />
           <entry key="PLAIN_TEXT" value="653" />
           <entry key="XML" value="56" />
         </counts>
@@ -738,6 +743,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="InterruptExitThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread/InterruptExitThread/InterruptExitThread.java">
@@ -745,20 +751,41 @@
             <state relative-caret-position="484">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="DeadLock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread/DeadLock_1/DeadLock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+              </folding>
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SuperFlower.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -767,20 +794,39 @@
               <folding>
                 <element signature="e#83#84#0" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DuoTai/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ForkJoinExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread/ForkJoinExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
               <folding />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arthas_demo/MathGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <element signature="e#1550#1559#0" expanded="true" />
+              </folding>
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="StackToQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -790,10 +836,18 @@
                 <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DuoTai/SubClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="QueueToStack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -803,6 +857,13 @@
                 <element signature="e#944#945#0" expanded="true" />
                 <element signature="e#1015#1016#0" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DuoTai/SuperClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </state>
           </provider>
         </entry>
@@ -886,7 +947,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/LeetCode/test328_OddEvenLinkedList/Solution.java" />
+=======
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
         <option value="$PROJECT_DIR$/src/LeetCode/test287_FindtheDuplicateNumber/Sulotion.java" />
         <option value="$PROJECT_DIR$/src/LRUDemo/LRUHashMap/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test146_LRUCache/Main.java" />
@@ -934,9 +998,15 @@
         <option value="$PROJECT_DIR$/src/SystemProperties/Environment/GetEnvTest.java" />
         <option value="$PROJECT_DIR$/src/SystemProperties/Properties/GetProTest.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test198_HouseRobber/Solution.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java" />
         <option value="$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java" />
         <option value="$PROJECT_DIR$/src/Offer/StackAndQueue/QueueToStack.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Test/Student.java" />
+        <option value="$PROJECT_DIR$/src/arthas_demo/DemoOne.java" />
+        <option value="$PROJECT_DIR$/src/arthas_demo/MathGame.java" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
       </list>
     </option>
   </component>
@@ -952,9 +1022,15 @@
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2188" />
     <option name="y" value="203" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="30" />
+    <option name="y" value="455" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
     <option name="width" value="1940" />
     <option name="height" value="1030" />
   </component>
@@ -993,7 +1069,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1010,7 +1086,11 @@
               <item name="testall" type="b2602c69:ProjectViewProjectNode" />
               <item name="testall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Offer" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="arthas_demo" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
             </path>
             <path>
               <item name="testall" type="b2602c69:ProjectViewProjectNode" />
@@ -1019,29 +1099,43 @@
               <item name="Offer" type="462c0819:PsiDirectoryNode" />
               <item name="StackAndQueue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554169581524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558667413431" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Download/netty-4.1/netty" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="SearchEverywhereHistoryKey" value="Flower&#9;FILE&#9;file://H:/Git/testall/testall/src/ConstructorTest/Test1/Flower.java" />
+=======
+    <property name="settings.editor.selected.configurable" value="power.mode.ii" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1064,9 +1158,24 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.QueueToStack">
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+=======
+  <component name="RunManager" selected="Application.MathGame">
+    <configuration name="ExecutorTest1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Thread.ExecutorDemo.Demo1.Demo1" />
+      <module name="testAll" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Flower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructorTest.Test1.Flower" />
+      <module name="testAll" />
+      <extension name="coverage">
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
         <pattern>
           <option name="PATTERN" value="Thread.DeadLock_1.*" />
           <option name="ENABLED" value="true" />
@@ -1124,6 +1233,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="SystemProperties.Properties.GetProTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -1133,12 +1243,21 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
+=======
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DuoTai.Main" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
       <module name="testAll" />
       <envs />
     </configuration>
     <configuration name="QueueToStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="Offer.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -1152,13 +1271,29 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
+=======
+          <option name="PATTERN" value="DuoTai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arthas_demo.MathGame" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
       <module name="testAll" />
       <envs />
     </configuration>
     <configuration name="StackToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="Offer.StackAndQueue.*" />
+=======
+          <option name="PATTERN" value="arthas_demo.*" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1174,6 +1309,7 @@
       <module name="testAll" />
       <envs />
     </configuration>
+<<<<<<< HEAD
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.ExecutorTest1" />
       <item index="1" class="java.lang.String" itemvalue="Application.GetEnvTest" />
@@ -1189,6 +1325,23 @@
         <item index="2" class="java.lang.String" itemvalue="Application.DeadLock" />
         <item index="3" class="java.lang.String" itemvalue="Application.GetProTest" />
         <item index="4" class="java.lang.String" itemvalue="Application.GetEnvTest" />
+=======
+    <list>
+      <item itemvalue="Application.ExecutorTest1" />
+      <item itemvalue="Application.Flower" />
+      <item itemvalue="Application.GetEnvTest" />
+      <item itemvalue="Application.GetProTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MathGame" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MathGame" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GetProTest" />
+        <item itemvalue="Application.GetEnvTest" />
+        <item itemvalue="Application.Flower" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
       </list>
     </recent_temporary>
   </component>
@@ -1318,18 +1471,31 @@
       <workItem from="1553403571601" duration="2296000" />
       <workItem from="1553565531931" duration="1668000" />
       <workItem from="1554169476375" duration="108000" />
+<<<<<<< HEAD
       <workItem from="1563758531187" duration="1547000" />
       <workItem from="1563762138108" duration="6812000" />
+=======
+      <workItem from="1554255370188" duration="41000" />
+      <workItem from="1555073496769" duration="2650000" />
+      <workItem from="1555080576334" duration="10000" />
+      <workItem from="1555080616186" duration="69000" />
+      <workItem from="1558667219931" duration="448000" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="313199000" />
+=======
+    <option name="totallyTimeSpent" value="308058000" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991294" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1359,6 +1525,39 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="DB Browser" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30898124" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.17588653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5531915" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34042552" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3696884" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32056737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1525,6 +1724,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/JVM/GetAllStackTracesTest/outTraces.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ProtoBuf/UserProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ClientTest/ProtoBufClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ServerTest/ProtoBufServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/ProtoBufDemo/ProtoBuf/User.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="1544" column="15" selection-start-line="1544" selection-start-column="15" selection-end-line="1544" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test162_FindPeakElement/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloWorldServer.java" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/HelloReply.java" />
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/hello.java" />
     <entry file="file://$PROJECT_DIR$/src/SerializeDemo/GrpcTest/GrpcTest.java">
@@ -1707,41 +1966,112 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Thread/DeadLock_1/DeadLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/SystemProperties/Environment/GetEnvTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemProperties/Properties/GetProTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/Flower.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
+=======
+        <state relative-caret-position="618">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Reflect/Demo1/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="88">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+=======
+        <state relative-caret-position="622">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructorTest/Test1/SuperFlower.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="110">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#83#84#0" expanded="true" />
+=======
+        <state relative-caret-position="2257">
+          <caret line="144" column="51" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test198_HouseRobber/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://J:/ProfessionalSoftware/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/ForkJoinTask.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/DuoTai/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DuoTai/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProSoftware/Java/jdk1.8.0_181/src.zip!/java/nio/channels/spi/SelectorProvider.java">
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="211" column="22" lean-forward="false" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
@@ -1773,6 +2103,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Offer/StackAndQueue/StackToQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
@@ -1807,6 +2138,21 @@
           <folding>
             <element signature="e#944#945#0" expanded="true" />
             <element signature="e#1015#1016#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/DuoTai/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arthas_demo/MathGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#1550#1559#0" expanded="true" />
+>>>>>>> b2a8e9d513fcb1cdce0bf423cf1020c5b7e09f11
           </folding>
         </state>
       </provider>
