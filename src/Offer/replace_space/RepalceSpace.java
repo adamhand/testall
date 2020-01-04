@@ -2,6 +2,8 @@ package Offer.replace_space;
 
 import Offer.ListNodeUtils.ListNode;
 
+import java.util.HashMap;
+
 public class RepalceSpace {
     private static String relaceSpace(StringBuilder sb) {
         for (int i = 0; i < sb.length(); i++) {
@@ -19,4 +21,3 @@ public class RepalceSpace {
         str.replace(" ", "fd");
     }
 }
-
